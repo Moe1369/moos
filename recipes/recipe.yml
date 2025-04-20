@@ -1,4 +1,4 @@
-name: moe.os
+name: moeos
 description: Opiniated Kinoite
 base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 42
