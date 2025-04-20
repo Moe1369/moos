@@ -6,6 +6,8 @@ modules:
   - type: rpm-ostree
     install:
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-42.noarch.rpm
+    remove:
+      - libva
   - type: rpm-ostree
     install:
       - steam
