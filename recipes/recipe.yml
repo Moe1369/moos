@@ -7,11 +7,17 @@ modules:
     install:
       - negativo17
   - type: rpm-ostree
-    install:
-      - steam
-  - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/errornointernet/klassy/repo/fedora-42/errornointernet-klassy-fedora-%OS_VERSION%.repo
+      - https://download.opensuse.org/repositories/home:/luisbocanegra/Fedora_Rawhide/home:luisbocanegra.repo
+      - https://copr.fedorainfracloud.org/coprs/vulongm/vk-hdr-layer/repo/fedora-42/vulongm-vk-hdr-layer-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/birkch/Koi/repo/fedora-42/birkch-Koi-fedora-%OS_VERSION%.repo
     install:
+      - steam
+      - steam-devices
+      - gamescope
+      - kde-material-you-colors
       - klassy
+      - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+      - vk-hdr-layer
   - type: signing
