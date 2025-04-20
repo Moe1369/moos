@@ -18,29 +18,28 @@ modules:
       - gamescope
       - kde-material-you-colors
       - klassy
-      - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
       - vk-hdr-layer
     remove:
       - firefox
       - firefox-langpacks
   - type: default-flatpaks
     system:
-    install:
-      - com.borgbase.Vorta
-      - com.discordapp.Discord
-      - com.github.IsmaelMartinez.teams_for_linux
-      - net.davidotek.pupgui2
-      - org.kde.elisa
-      - org.kde.gwenview
-      - org.kde.haruna
-      - org.kde.isoimagewriter
-      - org.kde.kate
-      - org.kde.kcolorchooser
-      - org.kde.kdenlive
-      - org.kde.kdf
-      - org.kde.kjournaldbrowser
-      - org.kde.kolourpaint
-      - org.kde.krita
-      - org.kde.okular
+      install:
+        - com.borgbase.Vorta
+        - com.discordapp.Discord
+        - com.github.IsmaelMartinez.teams_for_linux
+        - net.davidotek.pupgui2
+        - org.kde.elisa
+        - org.kde.gwenview
+        - org.kde.haruna
+        - org.kde.isoimagewriter
+        - org.kde.kate
+        - org.kde.kcolorchooser
+        - org.kde.kdenlive
+        - org.kde.kdf
+        - org.kde.kjournaldbrowser
+        - org.kde.kolourpaint
+        - org.kde.krita
+        - org.kde.okular
       
   - type: signing
