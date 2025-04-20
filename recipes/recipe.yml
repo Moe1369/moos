@@ -8,10 +8,10 @@ modules:
       - negativo17
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/errornointernet/klassy/repo/fedora-42/errornointernet-klassy-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/errornointernet/klassy/repo/fedora-%OS_VERSION%/errornointernet-klassy-fedora-%OS_VERSION%.repo
       - https://download.opensuse.org/repositories/home:/luisbocanegra/Fedora_Rawhide/home:luisbocanegra.repo
-      - https://copr.fedorainfracloud.org/coprs/vulongm/vk-hdr-layer/repo/fedora-42/vulongm-vk-hdr-layer-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/birkch/Koi/repo/fedora-42/birkch-Koi-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/vulongm/vk-hdr-layer/repo/fedora-%OS_VERSION%/vulongm-vk-hdr-layer-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/birkch/Koi/repo/fedora-%OS_VERSION%/birkch-Koi-fedora-%OS_VERSION%.repo
     install:
       - steam
       - steam-devices
