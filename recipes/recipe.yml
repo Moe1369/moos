@@ -6,16 +6,9 @@ modules:
   - type: bling
     install:
       - rpmfusion
-      - negativo17
   - type: rpm-ostree
     install:
       - steam
-      - steam-devices
-  #- type: rpm-ostree
-   # repo:
-    #  - https://dl.google.com/linux/chrome/rpm/stable/x86_64
-    #install:
-    #  - google-chrome-stable
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/errornointernet/klassy/repo/fedora-42/errornointernet-klassy-fedora-%OS_VERSION%.repo
