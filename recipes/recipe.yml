@@ -37,7 +37,6 @@ modules:
         - org.kde.kcolorchooser
         - org.kde.kdenlive
         - org.kde.kdf
-        - org.kde.kjournaldbrowser
         - org.kde.kolourpaint
         - org.kde.krita
         - org.kde.okular
