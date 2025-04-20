@@ -7,6 +7,8 @@ modules:
     install:
       - rpmfusion
   - type: rpm-ostree
+    repos:
+      - rpmfusion
     install:
       - steam
   - type: rpm-ostree
