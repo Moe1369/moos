@@ -4,12 +4,11 @@ base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 42
 modules:        
   - type: rpm-ostree
+    repos:
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-42.noarch.rpm
     install:
       - steam
       - steam-devices
-    remove:
-      - firefox
-      - firefox-langpacks 
   - type: rpm-ostree
     repos:
       - https://download.copr.fedorainfracloud.org/results/errornointernet/klassy/fedora-%OS_VERSION%-x86_64/
