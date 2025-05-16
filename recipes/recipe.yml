@@ -13,15 +13,19 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/vulongm/vk-hdr-layer/repo/fedora-%OS_VERSION%/vulongm-vk-hdr-layer-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/birkch/Koi/repo/fedora-%OS_VERSION%/birkch-Koi-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/sneed/amd-color/repo/fedora-%OS_VERSION%/sneed-amd-color-fedora-%OS_VERSION%.repo
     install:
       - steam
       - steam-devices
       - gamescope
+      - gamescope-session-steam
+      - gamescope-session-plus
       - mangohud
       - kde-material-you-colors
       - klassy
       - vk-hdr-layer
       - fastfetch
+      - google-chrome-stable
     remove:
       - firefox
       - firefox-langpacks
