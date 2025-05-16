@@ -21,8 +21,6 @@ modules:
         - steam
         - steam-devices
         - gamescope
-        - gamescope-session-steam
-        - gamescope-session-plus
         - mangohud
         - kde-material-you-colors
         - klassy
