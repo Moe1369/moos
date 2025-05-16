@@ -56,5 +56,7 @@ modules:
         - org.kde.kolourpaint
         - org.kde.krita
         - org.kde.okular
-      
+  - type: kargs
+    kargs:
+      - amdgpu.ppfeaturemask=0xfff7bfff
   - type: signing
