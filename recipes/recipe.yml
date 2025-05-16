@@ -1,6 +1,6 @@
 name: moeos
 description: Opiniated Kinoite
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: registry.fedoraproject.org/fedora-kinoite
 image-version: 42
 modules: 
   - type: bling
