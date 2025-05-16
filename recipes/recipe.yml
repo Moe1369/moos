@@ -15,6 +15,7 @@ modules:
         - https://copr.fedorainfracloud.org/coprs/birkch/Koi/repo/fedora-%OS_VERSION%/birkch-Koi-fedora-%OS_VERSION%.repo
         - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
         - https://copr.fedorainfracloud.org/coprs/sneed/amd-color/repo/fedora-%OS_VERSION%/sneed-amd-color-fedora-%OS_VERSION%.repo
+        - https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/repo/fedora-%OS_VERSION%/ilyaz-LACT-fedora-%OS_VERSION%.repo
     install:
       packages:
         - steam
@@ -27,6 +28,11 @@ modules:
         - klassy
         - vk-hdr-layer
         - fastfetch
+        - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+        - zsh
+        - zsh-autosuggestions
+        - zsh-syntax-highlighting
+        - lact
     remove:
       packages:
         - firefox
