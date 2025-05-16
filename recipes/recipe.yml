@@ -31,7 +31,7 @@ modules:
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - lact
-        - adwaita-fonts
+        - adwaita-fonts-all
     remove:
       packages:
         - firefox
