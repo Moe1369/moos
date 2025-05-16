@@ -27,8 +27,8 @@ modules:
         - klassy
         - vk-hdr-layer
         - fastfetch
-  remove:
-    packages:
+    remove:
+      packages:
         - firefox
         - firefox-langpacks
   - type: default-flatpaks
