@@ -6,7 +6,7 @@ modules:
   - type: bling
     install:
       - negativo17
-  - type: rpm-ostree
+  - type: dnf
     repos:
       - https://copr.fedorainfracloud.org/coprs/errornointernet/klassy/repo/fedora-%OS_VERSION%/errornointernet-klassy-fedora-%OS_VERSION%.repo
       - https://download.opensuse.org/repositories/home:/luisbocanegra/Fedora_Rawhide/home:luisbocanegra.repo
@@ -25,12 +25,14 @@ modules:
       - klassy
       - vk-hdr-layer
       - fastfetch
-      - google-chrome-stable
     remove:
       - firefox
       - firefox-langpacks
   - type: default-flatpaks
     system:
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (System)"
       install:
         - com.borgbase.Vorta
         - com.discordapp.Discord
