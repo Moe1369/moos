@@ -1,4 +1,4 @@
-# moeos &nbsp; [![bluebuild build badge](https://github.com/moe1369/moe.os/actions/workflows/build.yml/badge.svg)](https://github.com/moe1369/moe.os/actions/workflows/build.yml)
+# moeos
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
