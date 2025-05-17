@@ -8,14 +8,7 @@ modules:
       - negativo17
   - type: rpm-ostree
     install:
-      - libvirt-daemon-config-network
-      - libvirt-daemon-kvm
-      - qemu-kvm
-      - virt-manager
-      - virt-viewer
-      - guestfs-tools
-      - python3-libguestfs
-      - virt-top
+      - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
   - type: dnf
     repos:
       files:
@@ -54,6 +47,9 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
+    group-install:
+      packages:
+        - virtualization
   - type: default-flatpaks
     system:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
