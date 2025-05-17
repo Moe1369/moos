@@ -44,6 +44,8 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
+    group-install:
+      - virtualization
   - type: default-flatpaks
     system:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
