@@ -29,6 +29,7 @@ modules:
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
+        - starship
         - adwaita-fonts-all
         - kate
         - okular
