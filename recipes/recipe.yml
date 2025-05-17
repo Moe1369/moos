@@ -3,9 +3,6 @@ description: Opiniated Kinoite
 base-image: registry.fedoraproject.org/fedora-kinoite
 image-version: 42
 modules:
-  - type: script
-    scripts:
-      - google-chrome.sh
   - type: bling
     install:
       - negativo17
@@ -21,7 +18,6 @@ modules:
         - https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/repo/fedora-%OS_VERSION%/ilyaz-LACT-fedora-%OS_VERSION%.repo
     install:
       packages:
-        - google-chrome-stable
         - steam
         - steam-devices
         - gamescope
