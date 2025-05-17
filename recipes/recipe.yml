@@ -29,8 +29,17 @@ modules:
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
-        - lact
         - adwaita-fonts-all
+        - kate
+        - okular
+        - haruna
+        - gwenview
+        - elisa
+        - kdiskfree
+        - vorta
+        - kolourpaint
+        - kdenlive
+        - isoimagewriter
     remove:
       packages:
         - firefox
@@ -41,22 +50,7 @@ modules:
       repo-name: flathub
       repo-title: "Flathub (System)"
       install:
-        - com.borgbase.Vorta
         - com.discordapp.Discord
         - com.github.IsmaelMartinez.teams_for_linux
         - net.davidotek.pupgui2
-        - org.kde.elisa
-        - org.kde.gwenview
-        - org.kde.haruna
-        - org.kde.isoimagewriter
-        - org.kde.kate
-        - org.kde.kcolorchooser
-        - org.kde.kdenlive
-        - org.kde.kdf
-        - org.kde.kolourpaint
-        - org.kde.krita
-        - org.kde.okular
-  - type: kargs
-    kargs:
-      - amdgpu.ppfeaturemask=0xfff7bfff
   - type: signing
