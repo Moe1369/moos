@@ -1,6 +1,6 @@
 name: moeos-server
 description: Opiniated Server Image
-base-image: ghcr.io/ublue-os/ucore-minimal
+base-image: registry.fedoraproject.org/fedora-bootc
 image-version: 42
 modules:
   - type: dnf
