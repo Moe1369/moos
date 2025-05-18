@@ -1,4 +1,4 @@
-name: moeos
+name: moeos-workstation
 description: Opiniated Kinoite
 base-image: registry.fedoraproject.org/fedora-kinoite
 image-version: 42
