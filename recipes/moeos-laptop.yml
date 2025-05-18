@@ -1,0 +1,35 @@
+name: moeos-laptop
+description: Opiniated Silverblue
+base-image: registry.fedoraproject.org/fedora-silverblue
+image-version: 42
+modules:
+  - type: dnf
+    repos:
+      files:
+        - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+    install:
+      packages:
+        - fastfetch
+        - zsh
+        - zsh-autosuggestions
+        - zsh-syntax-highlighting
+        - starship
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
+    group-install:
+      packages:
+        - virtualization
+  - type: default-flatpaks
+    system:
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (System)"
+      install:
+        - com.discordapp.Discord
+        - com.github.IsmaelMartinez.teams_for_linux
+        - net.davidotek.pupgui2
+        - com.google.Chrome
+        - com.github.tchx84.Flatseal
+  - type: signing
