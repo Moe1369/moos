@@ -3,18 +3,13 @@ description: Opiniated Kinoite
 base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 42
 modules:
-  - type: bling
-    install:
-      - negativo17
-  - type: rpm-ostree
-    keys:
-      - https://dl.google.com/linux/linux_signing_key.pub
+  - type: dnf
     optfix:
       - google
-    install:
-      - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
-  - type: dnf
     repos:
+      keys:
+        - https://dl.google.com/linux/linux_signing_key.pub
+      nonfree: negativo17
       files:
         - https://copr.fedorainfracloud.org/coprs/errornointernet/klassy/repo/fedora-%OS_VERSION%/errornointernet-klassy-fedora-%OS_VERSION%.repo
         - https://download.opensuse.org/repositories/home:/luisbocanegra/Fedora_Rawhide/home:luisbocanegra.repo
@@ -25,6 +20,7 @@ modules:
         - https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/repo/fedora-%OS_VERSION%/ilyaz-LACT-fedora-%OS_VERSION%.repo
     install:
       packages:
+        - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
         - steam
         - steam-devices
         - gamescope
