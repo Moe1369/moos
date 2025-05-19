@@ -46,7 +46,7 @@ modules:
         - krita
         - isoimagewriter
         - kcolorchooser
-        - kamera
+        - kamoso
         - krdc
     remove:
       packages:
