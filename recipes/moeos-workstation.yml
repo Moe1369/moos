@@ -64,6 +64,5 @@ modules:
         - com.discordapp.Discord
         - com.github.IsmaelMartinez.teams_for_linux
         - net.davidotek.pupgui2
-        - com.google.Chrome
         - com.github.tchx84.Flatseal
   - type: signing
