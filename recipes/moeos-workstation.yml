@@ -6,6 +6,13 @@ modules:
   - type: bling
     install:
       - negativo17
+  - type: rpm-ostree
+    keys:
+      - https://dl.google.com/linux/linux_signing_key.pub
+    optfix:
+      - google-chrome-stable
+    install:
+        - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
   - type: dnf
     repos:
       files:
