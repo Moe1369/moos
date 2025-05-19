@@ -43,7 +43,10 @@ modules:
         - vorta
         - kolourpaint
         - kdenlive
+        - krita
         - isoimagewriter
+        - kcolorchooser
+        - kamera
         - krdc
     remove:
       packages:
