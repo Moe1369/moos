@@ -1,7 +1,7 @@
 # MoeOS OCI Images
 
 ## MoeOS Server Postsetup
-1. Create ZFS Data in ~/.local/share/containers
+1. Create ZFS root dataset in ~/.local/share/containers
 2. Create datasets for ~/.local/share/containers/{cache,storage,podman}
 3. Change owner chown -R administrator:administrator ~/.local/share/containers
 4. sudo semanage fcontext -a -t data_home_t "~/.local/share/containers(/.*)?"
