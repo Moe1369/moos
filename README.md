@@ -11,3 +11,7 @@
 8. Add podman auto-update
 9. rpm-ostree auto update (change /etc/rpm-ostreed.conf to "stage")
 10. ZSH settings for user and root
+
+### Homeassistant
+1. To use /dev/ttyUSB0 join user to dialout group
+2. sudo setsebool container_use_devices=true
