@@ -12,7 +12,6 @@ modules:
         - cockpit
         - cockpit-podman
         - policycoreutils-python-utils
-        - fastfetch
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
