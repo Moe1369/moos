@@ -19,7 +19,6 @@ modules:
       packages:
         - firewalld
         - podman-compose
-        - qemu-guest-agent
         - open-vm-tools
         - tailscale
         - tmux
