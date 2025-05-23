@@ -19,10 +19,6 @@ modules:
       packages:
         - firewalld
         - podman-compose
-        - open-vm-tools
-        - tailscale
-        - tmux
-        - wireguard-tools
   - type: signing
   - type: kargs
     kargs:
