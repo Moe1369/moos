@@ -13,7 +13,7 @@
 10. ZSH settings for user and root
 11. sudo timedatectl set-timezone Europe/Berlin
 12. create weekly scrub timer for both zfs pools
-13. 
+13. Podman auto updates mit: systemctl --user enable podman-auto-update.{service,timer}
 
 ### Homeassistant
 1. To use /dev/ttyUSB0 join user to dialout group
