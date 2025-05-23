@@ -11,6 +11,7 @@ modules:
       packages:
         - cockpit
         - cockpit-podman
+        - cockpit-selinux
         - policycoreutils-python-utils
         - zsh
         - zsh-autosuggestions
