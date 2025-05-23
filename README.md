@@ -18,4 +18,8 @@
 ### Homeassistant
 1. To use /dev/ttyUSB0 join user to dialout group
 2. sudo setsebool container_use_devices=true
-3.
+3. Custom SELinux policy for USB:
+4. Run HA with USB attached
+5. Policy will be violated -> log it and create new policy
+6. sudo ausearch -m avc -ts recent | sudo audit2allow -M homeassistant-usb
+7. apply new policy: sudo semodule -i homeassistant-usb.pp
