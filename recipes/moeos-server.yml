@@ -15,6 +15,15 @@ modules:
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
+    remove:
+      packages:
+        - firewalld
+        - podman-compose
+        - qemu-guest-agent
+        - open-vm-tools
+        - tailscale
+        - tmux
+        - wireguard-tools
   - type: signing
   - type: kargs
     kargs:
