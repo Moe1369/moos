@@ -15,10 +15,6 @@ modules:
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
-    remove:
-      packages:
-        - firewalld
-        - podman-compose
   - type: signing
   - type: kargs
     kargs:
