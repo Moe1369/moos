@@ -14,6 +14,7 @@ modules:
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
+        - htop
     remove:
       packages:
         - cockpit-bridge
