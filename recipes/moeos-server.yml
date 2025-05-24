@@ -16,6 +16,11 @@ modules:
         - starship
     remove:
       packages:
+        - cockpit-bridge
+        - cockpit-system
+        - cockpit-selinux
+        - cockpit-networkmanager
+        - cockpit-podman
         - zincati
   - type: signing
   - type: kargs
