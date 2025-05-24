@@ -11,11 +11,13 @@ modules:
       packages:
         - cockpit-zfs
         - fastfetch
-        - policycoreutils-python-utils
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
+    remove:
+      packages:
+        - zincati
   - type: signing
   - type: kargs
     kargs:
