@@ -26,6 +26,8 @@ modules:
         - steam
         - steam-devices
         - gamescope
+        - gamescope-session-steam
+        - gamescope-session-plus
         - steam-powerbuttond
         - deckyloader
         - mangohud
