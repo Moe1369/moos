@@ -15,6 +15,7 @@ modules:
         - zsh-syntax-highlighting
         - starship
         - htop
+        - borgbackup
     remove:
       packages:
         - cockpit-bridge
