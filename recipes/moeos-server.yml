@@ -1,6 +1,6 @@
 name: moeos-server
 description: Opiniated Server Image
-base-image: ghcr.io/ublue-os/ucore-minimal
+base-image: ghcr.io/ublue-os/fedora-coreos
 image-version: stable-zfs
 modules:
   - type: dnf
