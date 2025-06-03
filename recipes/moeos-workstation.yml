@@ -26,6 +26,7 @@ modules:
         - steam
         - steam-devices
         - gamescope
+        - gamescope-session-steam
         - deckyloader
         - mangohud
         - kde-material-you-colors
