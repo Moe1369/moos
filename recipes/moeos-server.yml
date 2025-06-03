@@ -18,15 +18,6 @@ modules:
         - htop
         - borgbackup
         - borgmatic
-        - cockpit
-        - cockpit-files
-        - cockpit-networkmanager
-        - cockpit-ostree
-        - cockpit-podman
-        - cockpit-selinux
-        - cockpit-ws
-        - cockpit-ws-selinux
-        - cockpit-kdump
     remove:
       packages:
         - zincati
