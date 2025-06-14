@@ -47,7 +47,6 @@ modules:
         - kolourpaint
         - kdenlive
         - krita
-        - kcalc
         - isoimagewriter
         - kcolorchooser
         - kamoso
