@@ -50,6 +50,7 @@ modules:
         - krita
         - isoimagewriter
         - kcolorchooser
+        - kcalc
         - kamoso
         - krdc
     remove:
