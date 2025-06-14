@@ -1,4 +1,4 @@
-name: moeos-workstation
+name: moeos-kde
 description: Opiniated Kinoite
 base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 42
