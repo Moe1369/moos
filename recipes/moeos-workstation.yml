@@ -21,7 +21,7 @@ modules:
       files:
         - https://download.opensuse.org/repositories/home:/luisbocanegra/Fedora_Rawhide/home:luisbocanegra.repo
     install:
-      skip-broken:
+      skip-broken: true
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v13.2.5/go-hass-agent-13.2.5-1.x86_64.rpm
         - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
