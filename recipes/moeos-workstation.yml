@@ -9,7 +9,7 @@ modules:
     repos:
       keys:
         - https://dl.google.com/linux/linux_signing_key.pub
-      nonfree: rpmfusion
+      nonfree: negativo17
       copr:
         enable:
           - errornointernet/klassy
