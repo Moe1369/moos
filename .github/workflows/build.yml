@@ -27,8 +27,8 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here
-          - moeos-workstation.yml
-          - moeos-laptop.yml
+          - moeos-kde.yml
+          - moeos-gnome.yml
           - moeos-server.yml
     steps:
       # the build is fully handled by the reusable github action
