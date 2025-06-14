@@ -1,4 +1,4 @@
-name: moeos-laptop
+name: moeos-gnome
 description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 42
