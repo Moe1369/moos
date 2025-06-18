@@ -34,6 +34,6 @@ modules:
         - com.github.tchx84.Flatseal
   - type: signing
   - type: gnome-extensions
-     install:
-       - Night Theme Switcher
-       - AppIndicator and KStatusNotifierItem Support
+    install:
+      - Night Theme Switcher
+      - AppIndicator and KStatusNotifierItem Support
