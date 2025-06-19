@@ -15,6 +15,8 @@ modules:
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
+        - steam-devices
+        - adw-gtk3-theme
     remove:
       packages:
         - firefox
@@ -28,6 +30,7 @@ modules:
       repo-name: flathub
       repo-title: "Flathub (System)"
       install:
+        - org.gtk.Gtk3theme.adw-gtk3
         - com.discordapp.Discord
         - com.github.IsmaelMartinez.teams_for_linux
         - net.davidotek.pupgui2
