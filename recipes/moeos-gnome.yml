@@ -36,6 +36,20 @@ modules:
         - net.davidotek.pupgui2
         - com.google.Chrome
         - com.github.tchx84.Flatseal
+        - com.mattjakeman.ExtensionManager
+        - com.valvesoftware.Steam
+        - com.vysp3r.ProtonPlus
+        - de.haeckerfelix.Shortwave
+        - de.schmidhuberj.DieBahn
+        - dev.bragefuglseth.Keypunch
+        - io.github.Foldex.AdwSteamGtk
+        - io.github.realmazharhussain.GdmSettings
+        - io.gitlab.adhami3310.Impression
+        - moe.tsuna.tsukimi
+        - org.gnome.Loupe
+        - org.gnome.Snapshot
+        - org.gnome.TextEditor
+        - page.tesk.Refine
   - type: signing
   - type: gnome-extensions
     install:
