@@ -5,8 +5,9 @@ image-version: 42
 modules:
   - type: dnf
     repos:
-      files:
-        - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      copr:
+        enable:
+          - atim/starship
     install:
       packages:
         - fastfetch
