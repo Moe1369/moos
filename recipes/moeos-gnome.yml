@@ -17,6 +17,7 @@ modules:
         - starship
         - steam-devices
         - adw-gtk3-theme
+        - ollama
     remove:
       packages:
         - firefox
