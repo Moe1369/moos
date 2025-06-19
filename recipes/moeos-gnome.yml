@@ -40,4 +40,5 @@ modules:
   - type: gnome-extensions
     install:
       - Night Theme Switcher
+      - Rounded Window Corners Reborn
       - AppIndicator and KStatusNotifierItem Support
