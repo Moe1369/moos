@@ -53,6 +53,10 @@ modules:
   - type: signing
   - type: gnome-extensions
     install:
+      - Accent Icons
+      - Auto Accent Colour
+      - Alphabetical App Grid
+      - Favorites to Applications Grid
       - Night Theme Switcher
       - Rounded Window Corners Reborn
       - AppIndicator and KStatusNotifierItem Support
