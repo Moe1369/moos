@@ -62,3 +62,6 @@ modules:
       - Rounded Window Corners Reborn
       - AppIndicator and KStatusNotifierItem Support
       - Quick Close in Overview
+  - type: kargs
+    kargs:
+       - amdgpu.ppfeaturemask=0xfff7ffff
