@@ -50,6 +50,7 @@ modules:
         - org.gnome.Snapshot
         - org.gnome.TextEditor
         - page.tesk.Refine
+        - page.kramo.Cartridges
   - type: signing
   - type: gnome-extensions
     install:
