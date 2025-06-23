@@ -33,7 +33,6 @@ modules:
         - org.gtk.Gtk3theme.adw-gtk3
         - com.discordapp.Discord
         - com.github.IsmaelMartinez.teams_for_linux
-        - net.davidotek.pupgui2
         - com.google.Chrome
         - com.github.tchx84.Flatseal
         - com.mattjakeman.ExtensionManager
