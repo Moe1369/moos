@@ -57,8 +57,8 @@ modules:
   - type: gnome-extensions
     install:
       - Caffeine
-      - Clipboard Indicator
-      - Wallpaper Slideshow
+#      - Clipboard Indicator
+#      - Wallpaper Slideshow
       - Accent Icons
       - Auto Accent Colour
       - Alphabetical App Grid
