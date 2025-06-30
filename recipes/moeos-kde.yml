@@ -53,6 +53,7 @@ modules:
         - kcalc
         - kamoso
         - krdc
+        - lact
     remove:
       packages:
         - firefox
@@ -71,3 +72,6 @@ modules:
         - net.davidotek.pupgui2
         - com.github.tchx84.Flatseal
   - type: signing
+  - type: kargs
+    kargs:
+       - amdgpu.ppfeaturemask=0xfff7ffff
