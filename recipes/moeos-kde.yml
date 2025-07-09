@@ -29,6 +29,7 @@ modules:
         - steam
         - steam-devices
         - gamescope
+        - deckyloader
         - kde-material-you-colors
         - mangohud
         - klassy
