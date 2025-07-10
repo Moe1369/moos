@@ -34,6 +34,7 @@ modules:
         - klassy
         - vk-hdr-layer
         - fastfetch
+        - chsh
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
