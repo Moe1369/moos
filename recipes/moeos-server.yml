@@ -9,7 +9,7 @@ modules:
         - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
       packages:
-        - http://mycmkserver/mysite/check_mk/agents/check-mk-agent-2.4.0p7-1.noarch.rpm
+        - https://checkmk.chrayed.de/cmk/check_mk/agents/check-mk-agent-2.4.0p7-1.noarch.rpm
         - wget
         - fastfetch
         - zsh
