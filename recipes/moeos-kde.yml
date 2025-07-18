@@ -25,6 +25,7 @@ modules:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v13.2.5/go-hass-agent-13.2.5-1.x86_64.rpm
         - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+        - https://checkmk.chrayed.de/cmk/check_mk/agents/check-mk-agent-2.4.0p7-1.noarch.rpm
         - Koi
         - steam
         - steam-devices
