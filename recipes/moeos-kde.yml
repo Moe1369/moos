@@ -63,15 +63,16 @@ modules:
       packages:
         - virtualization
   - type: default-flatpaks
-    system:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
-      repo-title: "Flathub (System)"
-      install:
-        - com.discordapp.Discord
-        - com.github.IsmaelMartinez.teams_for_linux
-        - net.davidotek.pupgui2
-        - com.github.tchx84.Flatseal
+    configurations:
+      - notify: true
+        scope: system
+        repo:
+          title: Flathub (system)
+        install:
+          - com.discordapp.Discord
+          - com.github.IsmaelMartinez.teams_for_linux
+          - net.davidotek.pupgui2
+          - com.github.tchx84.Flatseal
   - type: signing
   - type: kargs
     kargs:
