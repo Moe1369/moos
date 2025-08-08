@@ -20,6 +20,7 @@ modules:
         - python3-pygit2
         - python3-dbus
         - nautilus-python
+        - ollama
     remove:
       packages:
         - firefox
