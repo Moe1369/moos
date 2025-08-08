@@ -21,6 +21,9 @@ modules:
         - python3-dbus
         - nautilus-python
         - ollama
+        - steam
+        - steam-devices
+        - gamescope
     remove:
       packages:
         - firefox
