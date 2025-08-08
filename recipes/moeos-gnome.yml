@@ -16,15 +16,14 @@ modules:
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
+        - steam
+        - gamescope
         - steam-devices
         - adw-gtk3-theme
         - python3-pygit2
         - python3-dbus
         - nautilus-python
         - ollama
-        - steam
-        - steam-devices
-        - gamescope
     remove:
       packages:
         - firefox
