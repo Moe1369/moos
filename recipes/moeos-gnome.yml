@@ -44,7 +44,7 @@ modules:
           - com.google.Chrome
           - com.github.tchx84.Flatseal
           - com.mattjakeman.ExtensionManager
-          - com.valvesoftware.Steam
+          #- com.valvesoftware.Steam
           - com.vysp3r.ProtonPlus
           - de.haeckerfelix.Shortwave
           - de.schmidhuberj.DieBahn
