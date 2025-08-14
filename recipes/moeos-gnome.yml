@@ -19,7 +19,6 @@ modules:
         - starship
         - steam
         - gamescope
-        - gamescope-session-plus
         - steam-devices
         - adw-gtk3-theme
         - python3-pygit2
