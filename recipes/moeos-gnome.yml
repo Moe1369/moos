@@ -26,6 +26,9 @@ modules:
         - nautilus-python
         - ollama
         - nmap
+        - gamescope-session-common
+        - gamescope-session-plus
+        - gamescope-session-steam
     remove:
       packages:
         - firefox
@@ -33,6 +36,9 @@ modules:
     group-install:
       packages:
         - virtualization
+        exclude:
+          - steam-powerbuttond
+          - edid-decode
   - type: default-flatpaks
     configurations:
       - notify: true
@@ -74,9 +80,9 @@ modules:
       - Rounded Window Corners Reborn
       - AppIndicator and KStatusNotifierItem Support
       - Quick Close in Overview
-  - type: script
-    scripts:
-      - gamescopesession.sh
+  #- type: script
+  #  scripts:
+  #    - gamescopesession.sh
   - type: kargs
     kargs:
        - amdgpu.ppfeaturemask=0xfff7ffff
