@@ -60,9 +60,6 @@ modules:
           - org.gnome.TextEditor
           - page.tesk.Refine
           - page.kramo.Cartridges
-  - type: script
-    scripts:
-      - gamescopesession.sh
   - type: signing
   - type: gnome-extensions
     install:
