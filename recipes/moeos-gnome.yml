@@ -31,14 +31,13 @@ modules:
         - gamescope-session-steam
     remove:
       packages:
+        - steam-powerbuttond
+        - edid-decode
         - firefox
         - firefox-langpacks
     group-install:
       packages:
         - virtualization
-        exclude:
-          - steam-powerbuttond
-          - edid-decode
   - type: default-flatpaks
     configurations:
       - notify: true
