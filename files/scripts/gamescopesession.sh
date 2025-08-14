@@ -2,4 +2,4 @@
  
 set -oue pipefail
 
-dnf install -y gamescope-session-plus
+rpm-ostree install gamescope-session-plus
