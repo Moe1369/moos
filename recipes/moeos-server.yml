@@ -10,7 +10,6 @@ modules:
           - atim/starship
     install:
       packages:
-        - avahi
         - wget
         - fastfetch
         - zsh
