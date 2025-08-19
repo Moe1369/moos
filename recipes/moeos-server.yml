@@ -11,6 +11,7 @@ modules:
     install:
       packages:
         - avahi
+        - avahi-compat-libdns_sd
         - wget
         - fastfetch
         - zsh
