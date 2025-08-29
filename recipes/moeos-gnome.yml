@@ -10,6 +10,7 @@ modules:
         enable:
           - atim/starship
           - sneed/amd-color
+          - lizardbyte/beta
     install:
       packages:
         - fastfetch
@@ -26,9 +27,7 @@ modules:
         - nautilus-python
         - ollama
         - nmap
-        - gamescope-session-common
-        - gamescope-session-plus
-        - gamescope-session-steam
+        - sunshine
     remove:
       packages:
         - steam-powerbuttond
