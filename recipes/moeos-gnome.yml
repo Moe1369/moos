@@ -11,6 +11,7 @@ modules:
           - atim/starship
           - sneed/amd-color
           - lizardbyte/beta
+          - principis/howdy
     install:
       packages:
         - fastfetch
@@ -26,6 +27,7 @@ modules:
         - python3-dbus
         - nautilus-python
         - nmap
+        - howdy
     remove:
       packages:
         - steam-powerbuttond
