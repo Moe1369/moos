@@ -40,32 +40,54 @@ modules:
         repo:
           title: Flathub (system)
         install:
-          - org.gtk.Gtk3theme.adw-gtk3
+          - app.zen_browser.zen
+          - com.anydesk.Anydesk
+          - com.belmoussaoui.Obfuscate
+          - com.brave.Browser
+          - com.cassidyjames.butler
           - com.discordapp.Discord
           - com.github.IsmaelMartinez.teams_for_linux
-          - com.google.Chrome
+          - com.github.maoschanz.drawing
+          - com.github.marhkb.Pods
           - com.github.tchx84.Flatseal
+          - com.leinardi.gst
           - com.mattjakeman.ExtensionManager
-          #- com.valvesoftware.Steam
+          - com.rafaelmardojai.Blanket
           - com.vysp3r.ProtonPlus
           - de.haeckerfelix.Shortwave
-          - de.schmidhuberj.DieBahn
           - dev.bragefuglseth.Keypunch
+          - info.febvre.Komikku
           - io.github.Foldex.AdwSteamGtk
+          - io.github.dyegoaurelio.simple-wireplumber-gui
+          - io.github.flattool.Warehouse
+          - io.github.ilya_zlobintsev.LACT
           - io.github.realmazharhussain.GdmSettings
-          - io.gitlab.adhami3310.Impression
-          - moe.tsuna.tsukimi
-          - org.gnome.Loupe
-          - org.gnome.Snapshot
-          - org.gnome.TextEditor
+          - io.github.mrvladus.List
           - page.tesk.Refine
           - page.kramo.Cartridges
+          - page.codeberg.libre_menu_editor.LibreMenuEditor
+          - org.gtk.Gtk3theme.adw-gtk3
+          - org.gnome.seahorse.Application
+          - org.gnome.clocks
+          - org.gnome.World.PikaBackup
+          - org.gnome.TextEditor
+          - org.gnome.Maps
+          - org.gnome.Loupe
+          - org.gnome.Geary
+          - org.gnome.Decibels
+          - org.gnome.Contacts
+          - org.gnome.Calendar
+          - org.gnome.Calculator
+          - moe.tsuna.tsukimi
+          - io.missioncenter.MissionCenter
+          - io.gitlab.theevilskeleton.Upscaler
+          - io.gitlab.adhami3310.Impression
+          - io.github.seadve.Mousai
   - type: signing
   - type: gnome-extensions
     install:
       - Caffeine
-#      - Clipboard Indicator
-#      - Wallpaper Slideshow
+      - 779
       - Accent Icons
       - Auto Accent Colour
       - Alphabetical App Grid
@@ -74,9 +96,6 @@ modules:
       - Rounded Window Corners Reborn
       - AppIndicator and KStatusNotifierItem Support
       - Quick Close in Overview
-  #- type: script
-  #  scripts:
-  #    - gamescopesession.sh
   - type: kargs
     kargs:
        - amdgpu.ppfeaturemask=0xfff7ffff
