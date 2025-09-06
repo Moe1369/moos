@@ -25,6 +25,7 @@ modules:
         - python3-dbus
         - nautilus-python
         - nmap
+        - ranger
     remove:
       packages:
         - firefox
