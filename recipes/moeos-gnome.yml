@@ -86,6 +86,7 @@ modules:
           - io.gitlab.theevilskeleton.Upscaler
           - io.gitlab.adhami3310.Impression
           - io.github.seadve.Mousai
+          - com.github.finefindus.eyedropper
   - type: signing
   - type: gnome-extensions
     install:
