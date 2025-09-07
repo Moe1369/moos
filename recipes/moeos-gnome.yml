@@ -9,7 +9,7 @@ modules:
       copr:
         enable:
           - atim/starship
-          - "@critos-org/critos"
+          - sneed/amd-color
     install:
       packages:
         - fastfetch
