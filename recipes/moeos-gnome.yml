@@ -29,6 +29,7 @@ modules:
         - nautilus-python
         - nmap
         - ranger
+        - make
     remove:
       packages:
         - firefox
