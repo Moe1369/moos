@@ -12,6 +12,7 @@ modules:
           - "@critos-org/critos"
     install:
       packages:
+        - https://github.com/joshuar/go-hass-agent/releases/download/v13.3.3/go-hass-agent-13.3.3-1.x86_64.rpm
         - fastfetch
         - zsh
         - zsh-autosuggestions
