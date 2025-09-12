@@ -4,6 +4,8 @@ base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 42
 modules:
   - type: dnf
+    optfix:
+      - brave.com
     repos:
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
