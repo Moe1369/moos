@@ -4,11 +4,10 @@ base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 42
 modules:
   - type: dnf
-    optfix:
-      - google
     repos:
-      keys:
-        - https://dl.google.com/linux/linux_signing_key.pub
+      files:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+        - https://download.opensuse.org/repositories/home:/luisbocanegra/Fedora_42/home:luisbocanegra.repo
       nonfree: negativo17
       copr:
         enable:
@@ -18,13 +17,11 @@ modules:
           - atim/starship
           - sneed/amd-color
           - ilyaz/LACT
-      files:
-        - https://download.opensuse.org/repositories/home:/luisbocanegra/Fedora_42/home:luisbocanegra.repo
     install:
       skip-broken: false
       packages:
-        - https://github.com/joshuar/go-hass-agent/releases/download/v13.2.5/go-hass-agent-13.2.5-1.x86_64.rpm
-        - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+        - https://github.com/joshuar/go-hass-agent/releases/download/v13.3.3/go-hass-agent-13.3.3-1.x86_64.rpm
+        - brave-browser
         - Koi
         - steam
         - steam-devices
@@ -32,7 +29,6 @@ modules:
         - kde-material-you-colors
         - mangohud
         - klassy
-        - vk-hdr-layer
         - fastfetch
         - chsh
         - zsh
