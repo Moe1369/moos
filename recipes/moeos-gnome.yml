@@ -44,7 +44,6 @@ modules:
         repo:
           title: Flathub (system)
         install:
-          - app.zen_browser.zen
           - com.anydesk.Anydesk
           - com.belmoussaoui.Obfuscate
           - com.brave.Browser
@@ -62,13 +61,11 @@ modules:
           - dev.bragefuglseth.Keypunch
           - info.febvre.Komikku
           - io.github.Foldex.AdwSteamGtk
-          - io.github.dyegoaurelio.simple-wireplumber-gui
           - io.github.flattool.Warehouse
           - io.github.ilya_zlobintsev.LACT
           - io.github.realmazharhussain.GdmSettings
           - io.github.mrvladus.List
           - page.tesk.Refine
-          - page.kramo.Cartridges
           - page.codeberg.libre_menu_editor.LibreMenuEditor
           - org.gtk.Gtk3theme.adw-gtk3
           - org.gnome.seahorse.Application
@@ -88,6 +85,7 @@ modules:
           - io.gitlab.adhami3310.Impression
           - io.github.seadve.Mousai
           - com.github.finefindus.eyedropper
+          - org.libreoffice.LibreOffice
   - type: signing
   - type: gnome-extensions
     install:
