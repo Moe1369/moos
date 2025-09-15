@@ -30,6 +30,7 @@ modules:
         - nautilus-python
         - nmap
         - ranger
+        - p7zip
     remove:
       packages:
         - firefox
