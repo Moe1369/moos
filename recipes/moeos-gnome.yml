@@ -86,10 +86,14 @@ modules:
           - io.github.seadve.Mousai
           - com.github.finefindus.eyedropper
           - org.libreoffice.LibreOffice
+          - it.mijorus.gearlever
+          - ca.desrt.dconf-editor
   - type: signing
   - type: gnome-extensions
     install:
       - Caffeine
+      - 6281
+      - 19
       - 779
       - Accent Icons
       - Auto Accent Colour
