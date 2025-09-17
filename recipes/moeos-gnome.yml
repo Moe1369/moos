@@ -10,10 +10,12 @@ modules:
         enable:
           - atim/starship
           - bazzite-org/bazzite
+          - trixieua/mesa-clang
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v13.3.3/go-hass-agent-13.3.3-1.x86_64.rpm
         - fastfetch
+        - mesa-clang
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
