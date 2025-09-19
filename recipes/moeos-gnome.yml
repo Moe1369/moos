@@ -3,12 +3,12 @@ description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 42
 modules:
-  - type: os-release
-    properties:
-      ID: moe.os
-      ID_LIKE: fedora
-      NAME: Moe.OS
-      PRETTY_NAME: Moe.OS
+  #- type: os-release
+  #  properties:
+  #    ID: moe.os
+  #    ID_LIKE: fedora
+  #    NAME: Moe.OS
+  #    PRETTY_NAME: Moe.OS
   - type: dnf
     repos:
       nonfree: negativo17
