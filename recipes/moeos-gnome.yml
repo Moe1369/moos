@@ -95,6 +95,7 @@ modules:
           - org.libreoffice.LibreOffice
           - it.mijorus.gearlever
           - ca.desrt.dconf-editor
+          - org.gnome.NautilusPreviewer
   - type: signing
   - type: gnome-extensions
     install:
