@@ -62,20 +62,7 @@ modules:
         - kernel-core
         - kernel-modules
         - kernel-modules-core
-        - kernel-modules-extra
-        - mesa-filesystem
-        - mesa-libglapi
-        - mesa-dri-drivers
-        - mesa-libgbm
-        - mesa-demos
-        - mesa-libEGL
-        - mesa-libGL
-        - mesa-vulkan-drivers
-        - mesa-libxatracker
-        - mesa-vdpau-drivers
-        - mesa-libOSMesa
-        - mesa-libOpenCL
-        - mesa-va-drivers
+        - kernel-modules-extra      
     group-install:
       packages:
         - virtualization
