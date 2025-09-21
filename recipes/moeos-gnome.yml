@@ -124,9 +124,9 @@ modules:
   - type: gnome-extensions
     install:
       - Caffeine
-      - 6281
-      - 19
-      - 779
+      #- 6281
+      #- 19
+      #- 779
       - Accent Icons
       - Auto Accent Colour
       - Alphabetical App Grid
