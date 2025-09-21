@@ -51,6 +51,7 @@ modules:
         - virtualization
     replace:
       - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
+        allow-erasing: true
         packages:
           - mesa-filesystem 
           - mesa-libglapi 
