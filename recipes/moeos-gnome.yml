@@ -5,7 +5,7 @@ image-version: 42
 modules:
   - type: dnf
     replace:
-      - from-repo: copr:copr.fedorainfracloud.org:trixieua/mesa-clang
+      - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
         packages:
           - mesa-filesystem 
           - mesa-libglapi 
