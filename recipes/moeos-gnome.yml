@@ -79,10 +79,10 @@ modules:
     group-install:
       packages:
         - virtualization
-  - type: systemd
-    system:
-      enabled:
-        - uksmd.service
+  #- type: systemd
+    #system:
+      #enabled:
+        #- uksmd.service
   - type: default-flatpaks
     configurations:
       - notify: true
