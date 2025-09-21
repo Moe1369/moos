@@ -31,38 +31,10 @@ modules:
         - nautilus-python
         - nmap
         - ranger
-        - kernel
-        - kernel-core
-        - kernel-modules
-        - kernel-modules-core
-        - kernel-modules-extra
-        - libcap-ng
-        - libcap-ng-devel
-        - procps-ng
-        - procps-ng-devel
-        - uksmd
-        - mesa-filesystem
-        - mesa-libglapi
-        - mesa-dri-drivers
-        - mesa-libgbm
-        - mesa-demos
-        - mesa-libEGL
-        - mesa-libGL
-        - mesa-vulkan-drivers
-        - mesa-libxatracker
-        - mesa-vdpau-drivers
-        - mesa-libOSMesa
-        - mesa-libOpenCL
-        - mesa-va-drivers
     remove:
       packages:
         - firefox
-        - firefox-langpacks
-        - kernel
-        - kernel-core
-        - kernel-modules
-        - kernel-modules-core
-        - kernel-modules-extra      
+        - firefox-langpacks  
     group-install:
       packages:
         - virtualization
