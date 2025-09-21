@@ -3,12 +3,6 @@ description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 42
 modules:
-  #- type: os-release
-  #  properties:
-  #    ID: moe.os
-  #    ID_LIKE: fedora
-  #    NAME: Moe.OS
-  #    PRETTY_NAME: Moe.OS
   - type: dnf
     repos:
       nonfree: negativo17
@@ -17,6 +11,8 @@ modules:
           - atim/starship
           - bazzite-org/bazzite
           - trixieua/mesa-clang
+          - bieszczaders/kernel-cachyos
+          - bieszczaders/kernel-cachyos-addons
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v13.3.3/go-hass-agent-13.3.3-1.x86_64.rpm
@@ -35,6 +31,16 @@ modules:
         - nautilus-python
         - nmap
         - ranger
+        - kernel
+        - kernel-core
+        - kernel-modules
+        - kernel-modules-core
+        - kernel-modules-extra
+        - libcap-ng
+        - libcap-ng-devel
+        - procps-ng
+        - procps-ng-devel
+        - uksmd
         - mesa-filesystem
         - mesa-libglapi
         - mesa-dri-drivers
@@ -52,6 +58,11 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
+        - kernel
+        - kernel-core
+        - kernel-modules
+        - kernel-modules-core
+        - kernel-modules-extra
         - mesa-filesystem
         - mesa-libglapi
         - mesa-dri-drivers
@@ -68,6 +79,10 @@ modules:
     group-install:
       packages:
         - virtualization
+  - type: systemd
+    system:
+      enabled:
+        - uksmd.service
   - type: default-flatpaks
     configurations:
       - notify: true
