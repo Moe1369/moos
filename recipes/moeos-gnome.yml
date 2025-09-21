@@ -4,6 +4,22 @@ base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 42
 modules:
   - type: dnf
+    replace:
+      - from-repo: trixieua/mesa-clang
+        packages:
+          - mesa-filesystem 
+          - mesa-libglapi 
+          - mesa-dri-drivers 
+          - mesa-libgbm
+          - mesa-demos
+          - mesa-libEGL
+          - mesa-libGL
+          - mesa-vulkan-drivers
+          - mesa-libxatracker
+          - mesa-vdpau-drivers
+          - mesa-libOSMesa
+          - mesa-libOpenCL 
+          - mesa-va-drivers          
     repos:
       nonfree: negativo17
       copr:
