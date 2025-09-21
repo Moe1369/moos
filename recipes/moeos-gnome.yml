@@ -32,6 +32,11 @@ modules:
         - nmap
         - ranger
         - kernel-cachyos
+        - libcap-ng
+        - libcap-ng-devel
+        - procps-ng
+        - procps-ng-devel
+        - uksmd
     remove:
       packages:
         - firefox
