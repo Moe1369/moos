@@ -29,8 +29,6 @@ modules:
         - steam-devices
         - mangohud
         - gamescope
-        - gamescope-session-plus
-        - gamescope-session-steam
         - adw-gtk3-theme
         - python3-pygit2
         - python3-dbus
