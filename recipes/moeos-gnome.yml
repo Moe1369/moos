@@ -110,20 +110,20 @@ modules:
           - ca.desrt.dconf-editor
           - org.gnome.NautilusPreviewer
   - type: signing
-  #- type: gnome-extensions
-    #install:
-      #- Caffeine
-      #- 6281
-      #- 19
-      #- 779
-      #- Accent Icons
-      #- Auto Accent Colour
-      #- Alphabetical App Grid
-      #- Favorites to Applications Grid
-      #- Night Theme Switcher
-      #- Rounded Window Corners Reborn
-      #- AppIndicator and KStatusNotifierItem Support
-      #- Quick Close in Overview
+  - type: gnome-extensions
+    install:
+      - Caffeine
+      - 6281
+      - 19
+      - 779
+      - Accent Icons
+      - Auto Accent Colour
+      - Alphabetical App Grid
+      - Favorites to Applications Grid
+      - Night Theme Switcher
+      - Rounded Window Corners Reborn
+      - AppIndicator and KStatusNotifierItem Support
+      - Quick Close in Overview
   - type: kargs
     kargs:
        - amdgpu.ppfeaturemask=0xfff7ffff
