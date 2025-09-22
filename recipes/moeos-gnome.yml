@@ -36,27 +36,6 @@ modules:
     group-install:
       packages:
         - virtualization
-   # replace:
-   #   - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
-   #     allow-erasing: true
-   #     packages:
-   #       - mesa-filesystem 
-   #       - mesa-libglapi 
-   #       - mesa-dri-drivers 
-   #       - mesa-libgbm
-   #       - mesa-demos
-   #       - mesa-libEGL
-   #       - mesa-libGL
-   #       - mesa-vulkan-drivers
-   #       - mesa-libxatracker
-   #       - mesa-vdpau-drivers
-   #       - mesa-libOSMesa
-   #       - mesa-libOpenCL 
-   #       - mesa-va-drivers      
-  #- type: systemd
-    #system:
-      #enabled:
-        #- uksmd.service
   - type: default-flatpaks
     configurations:
       - notify: true
@@ -124,6 +103,9 @@ modules:
       - Rounded Window Corners Reborn
       - AppIndicator and KStatusNotifierItem Support
       - Quick Close in Overview
+      - Quick Settings Tweaks
+      - User Themes
+      - Wallpaper Slideshow
   - type: kargs
     kargs:
        - amdgpu.ppfeaturemask=0xfff7ffff
