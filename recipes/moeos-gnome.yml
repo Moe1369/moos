@@ -9,7 +9,7 @@ modules:
       copr:
         enable:
           - atim/starship
-          - bazzite-org/bazzite
+          - gloriouseggroll/nobara-42
           - trixieua/mesa-clang
     install:
       packages:
