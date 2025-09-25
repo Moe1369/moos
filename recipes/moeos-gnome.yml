@@ -45,6 +45,7 @@ modules:
         install:
           - com.anydesk.Anydesk
           - com.belmoussaoui.Obfuscate
+          - io.github.flattool.Ignition
           - com.brave.Browser
           - com.cassidyjames.butler
           - com.discordapp.Discord
