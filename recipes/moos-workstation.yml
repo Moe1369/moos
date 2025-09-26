@@ -95,7 +95,7 @@ modules:
     install:
       - Caffeine
       - 6281
-      - 6580
+      #- 6580
       - 19
       - 779
       - Accent Icons
