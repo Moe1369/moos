@@ -32,6 +32,7 @@ modules:
         - rocm
     replace:
     - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
+      allow-erasing:
       packages:
         - mesa-filesystem.x86_64
         - mesa-libglapi.x86_64
