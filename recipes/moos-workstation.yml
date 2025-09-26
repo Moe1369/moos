@@ -10,7 +10,7 @@ modules:
         #- bootc-fetch-apply-updates.service
   - type: dnf   
     repos:
-      nonfree: negativo17
+      nonfree: rpmfusion
       copr:
         enable:
           - atim/starship
