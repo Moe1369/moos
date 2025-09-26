@@ -3,14 +3,12 @@ description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 42
 modules:
-  - type: files
-    files:
-      - source: system/etc/rpm-ostreed.conf 
-        destination: /etc/rpm-ostreed.conf
   - type: systemd
     system:
       enabled:
         - libvirtd.service
+        - bootc-fetch-apply-updates.service
+        - bootc-fetch-apply-updates.timer
   - type: dnf    
     repos:
       nonfree: negativo17
