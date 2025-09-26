@@ -27,9 +27,8 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here
-          - moeos-kde.yml
-          - moeos-gnome.yml
-          - moeos-server.yml
+          - moos.workstation.yml
+          - moos.server.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
