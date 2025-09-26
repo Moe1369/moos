@@ -9,10 +9,6 @@ modules:
         #- libvirtd.service
         #- bootc-fetch-apply-updates.service
   - type: dnf   
-    replace:
-      - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
-        packages:
-          - mesa
     repos:
       nonfree: negativo17
       copr:
