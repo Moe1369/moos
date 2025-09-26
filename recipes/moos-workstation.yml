@@ -3,11 +3,11 @@ description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 42
 modules:
-  - type: systemd
-    system:
-      enabled:
-        - libvirtd.service
-        - bootc-fetch-apply-updates.service
+  #- type: systemd
+    #system:
+      #enabled:
+        #- libvirtd.service
+        #- bootc-fetch-apply-updates.service
   - type: dnf   
     replace:
       - from-repo: copr:copr.fedorainfracloud.org:trixieua/mesa-clang
