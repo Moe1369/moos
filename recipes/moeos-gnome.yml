@@ -5,7 +5,7 @@ image-version: 42
 modules:
   - type: files
     files:
-      - source: system/etc/rpm-ostreed.conf   # copies `files/system/*` (* means everything inside it) into your image's root folder `/`
+      - source: system/etc/rpm-ostreed.conf 
         destination: /etc/rpm-ostreed.conf
   - type: systemd
     system:
