@@ -1,7 +1,7 @@
 name: moos-workstation
 description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
-image-version: 42
+image-version: 43
 modules:
   #- type: systemd
     #system:
@@ -14,18 +14,6 @@ modules:
       copr:
         enable:
           - atim/starship
-          - trixieua/mesa-clang
-    replace:
-    - from-repo: copr:copr.fedorainfracloud.org:trixieua:mesa-clang
-      allow-erasing: true
-      packages:
-        - mesa-filesystem
-        - mesa-va-drivers
-        - mesa-dri-drivers
-        - mesa-libgbm
-        - mesa-libGL
-        - mesa-libEGL
-        - mesa-vulkan-drivers
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v13.3.3/go-hass-agent-13.3.3-1.x86_64.rpm
