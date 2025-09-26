@@ -32,6 +32,7 @@ modules:
         - ranger
         - scrcpy
         - ollama
+        - rocm
     remove:
       packages:
         - firefox
