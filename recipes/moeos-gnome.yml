@@ -96,6 +96,7 @@ modules:
           - it.mijorus.gearlever
           - ca.desrt.dconf-editor
           - org.gnome.NautilusPreviewer
+          - io.github.bytezz.IPLookup
   - type: signing
   - type: gnome-extensions
     install:
