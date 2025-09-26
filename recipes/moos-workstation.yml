@@ -91,19 +91,6 @@ modules:
           - ca.desrt.dconf-editor
           - org.gnome.NautilusPreviewer
           - io.github.bytezz.IPLookup
-          - mesa-filesystem
-          - mesa-libglapi
-          - mesa-dri-drivers
-          - mesa-libgbm
-          - mesa-demos
-          - mesa-libEGL
-          - mesa-libGL
-          - mesa-vulkan-drivers
-          - mesa-libxatracker
-          - mesa-vdpau-drivers
-          - mesa-libOSMesa
-          - mesa-libOpenCL
-          - mesa-va-drivers 
   - type: signing
   - type: gnome-extensions
     install:
