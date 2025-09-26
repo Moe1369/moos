@@ -31,9 +31,6 @@ modules:
         - mangohud
         - gamescope
         - adw-gtk3-theme
-        - python3-pygit2
-        - python3-dbus
-        - nautilus-python
         - ollama
         - rocm
     remove:
