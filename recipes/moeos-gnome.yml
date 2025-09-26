@@ -11,6 +11,7 @@ modules:
           - atim/starship
           - gloriouseggroll/nobara-42
           - trixieua/mesa-clang
+          - zeno/scrcpy
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v13.3.3/go-hass-agent-13.3.3-1.x86_64.rpm
@@ -23,14 +24,13 @@ modules:
         - steam-devices
         - mangohud
         - gamescope
-        - gamescope-session-steam
-        - gamescope-session-plus
         - adw-gtk3-theme
         - python3-pygit2
         - python3-dbus
         - nautilus-python
         - nmap
         - ranger
+        - scrcpy
     remove:
       packages:
         - firefox
