@@ -17,7 +17,6 @@ modules:
       copr:
         enable:
           - atim/starship
-          - gloriouseggroll/nobara-42
           - trixieua/mesa-clang
           - zeno/scrcpy
     install:
