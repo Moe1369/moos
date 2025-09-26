@@ -1,7 +1,7 @@
 name: moos-workstation
 description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
-image-version: 42
+image-version: 43
 modules:
   #- type: systemd
     #system:
