@@ -1,4 +1,4 @@
-name: moeos-server
+name: moos-server
 description: Opiniated Server Image
 base-image: ghcr.io/ublue-os/fedora-coreos
 image-version: stable-zfs
