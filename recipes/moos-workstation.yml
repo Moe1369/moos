@@ -101,12 +101,12 @@ modules:
       - Accent Icons
       - Auto Accent Colour
       - Alphabetical App Grid
-      - Favorites to Applications Grid
+      #- Favorites to Applications Grid
       - Night Theme Switcher
       - Rounded Window Corners Reborn
       - AppIndicator and KStatusNotifierItem Support
       - Quick Close in Overview
-      - Quick Settings Tweaks
+      #- Quick Settings Tweaks
       - User Themes
       - Wallpaper Slideshow
   - type: kargs
