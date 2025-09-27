@@ -18,12 +18,12 @@ jobs:
   bluebuild:
     name: Build Custom Image
     runs-on: ubuntu-latest
-    rechunk: true
     permissions:
       contents: read
       packages: write
       id-token: write
     strategy:
+      rechunk: true
       fail-fast: false # stop GH from cancelling all matrix builds if one fails
       matrix:
         recipe:
