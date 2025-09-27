@@ -3,7 +3,10 @@ description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 43
 modules:
-  - type: dnf   
+  - type: script
+    scripts:
+      - gamescope-first-run.sh
+  - type: dnf
     repos:
       nonfree: rpmfusion
       copr:
