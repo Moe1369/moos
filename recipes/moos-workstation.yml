@@ -3,15 +3,6 @@ description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 42
 modules:
-  - type: files
-    files:
-      - source: system/usr/bin
-        destination: /usr/bin
-      - source: system/usr/share/applications
-        destination: /usr/share/applications
-  - type: script
-    scripts:
-      - gamescope-first-run.sh
   - type: dnf
     repos:
       nonfree: rpmfusion
@@ -29,8 +20,6 @@ modules:
         - starship
         - steam
         - steam-devices
-        - gamescope-session-steam
-        - gamescope-session-plus
         - mangohud
         - gamescope
         - adw-gtk3-theme
