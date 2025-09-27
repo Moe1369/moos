@@ -3,17 +3,13 @@ description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 43
 modules:
-  #- type: systemd
-    #system:
-      #enabled:
-        #- libvirtd.service
-        #- bootc-fetch-apply-updates.service
   - type: dnf   
     repos:
       nonfree: rpmfusion
       copr:
         enable:
           - atim/starship
+          - bazzite-org/bazzite
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v13.3.3/go-hass-agent-13.3.3-1.x86_64.rpm
@@ -24,6 +20,8 @@ modules:
         - starship
         - steam
         - steam-devices
+        - gamescope-session-steam
+        - gamescope-session-plus
         - mangohud
         - gamescope
         - adw-gtk3-theme
