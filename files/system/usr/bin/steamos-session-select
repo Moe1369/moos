@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+GAMESCOPE_SESSION_SCRIPT="/usr/libexec/os-session-select"
+if [ -f $GAMESCOPE_SESSION_SCRIPT ] ; then
+       ${GAMESCOPE_SESSION_SCRIPT} $@
+fi
+
+steam -shutdown
+# make sure all wine processes are DEAD dead.
+kill -9 $(ps -ef | grep -E -i '(wine|processid|\.exe)' | awk '{print $2}')
+systemctl --user stop gamescope-session-plus@steam.service
