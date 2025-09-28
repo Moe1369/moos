@@ -1,4 +1,4 @@
-name: moos-workstation
+name: moos-laptop
 description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 43
