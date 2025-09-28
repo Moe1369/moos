@@ -87,6 +87,7 @@ modules:
           - ca.desrt.dconf-editor
           - org.gnome.NautilusPreviewer
           - io.github.bytezz.IPLookup
+          - org.gnome.Logs
   - type: signing
   - type: gnome-extensions
     install:
