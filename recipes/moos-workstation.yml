@@ -3,6 +3,9 @@ description: Opiniated Silverblue
 base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 43
 modules:
+  - type: files
+      - source: system/etc/profile.d/
+        destination: /etc/profile.d
   - type: dnf
     repos:
       nonfree: rpmfusion
