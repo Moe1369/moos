@@ -24,6 +24,7 @@ modules:
         - adw-gtk3-theme
         - ollama
         - rocm
+        - 7z
     remove:
       packages:
         - firefox
