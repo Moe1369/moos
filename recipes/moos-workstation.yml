@@ -1,64 +1,35 @@
 name: moos-workstation
-description: Opiniated Kinoite
-base-image: registry.fedoraproject.org/fedora-kinoite
+description: Opiniated Silverblue
+base-image: registry.fedoraproject.org/fedora-silverblue
 image-version: 43
 modules:
-  - type: signing
   - type: files
     files:
       - source: system/etc/profile.d/
         destination: /etc/profile.d
   - type: dnf
-    optfix:
-      - brave.com
     repos:
-      files:
-        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-        #- https://download.opensuse.org/repositories/home:/luisbocanegra/Fedora_Rawhide/home:luisbocanegra.repo
       nonfree: rpmfusion
       copr:
         enable:
           - atim/starship
-          - errornointernet/klassy
           - sneed/amd-color
-          - birkch/Koi
-          - ilyaz/LACT
     install:
       packages:
-        - brave-browser
-        - Koi
-        - steam
-        - steam-devices
-        - gamescope
-        #- python-pywal
-        #- python-pywal16
-        #- python-materialyoucolor
-        #- python-material-color-utilities-python
-        #- kde-material-you-colors
-        - mangohud
-        - klassy
+        - https://github.com/joshuar/go-hass-agent/releases/download/v13.3.3/go-hass-agent-13.3.3-1.x86_64.rpm
         - fastfetch
-        - chsh
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
-        - adwaita-fonts-all
-        - kate
-        - okular
-        - haruna
-        - gwenview
-        - elisa
-        - vorta
-        - kolourpaint
-        - kdenlive
-        - krita
-        - isoimagewriter
-        - kcolorchooser
-        - kcalc
-        - kamoso
-        - krdc
-        - lact
+        - steam
+        - steam-devices
+        - mangohud
+        - gamescope
+        - adw-gtk3-theme
+        - ollama
+        - rocm
+        - 7z
     remove:
       packages:
         - firefox
@@ -73,10 +44,72 @@ modules:
         repo:
           title: Flathub (system)
         install:
+          - com.anydesk.Anydesk
+          - com.belmoussaoui.Obfuscate
+          - io.github.flattool.Ignition
+          - com.brave.Browser
+          - com.cassidyjames.butler
           - com.discordapp.Discord
           - com.github.IsmaelMartinez.teams_for_linux
-          - net.davidotek.pupgui2
+          - com.github.maoschanz.drawing
+          - com.github.marhkb.Pods
           - com.github.tchx84.Flatseal
+          - com.leinardi.gst
+          - com.mattjakeman.ExtensionManager
+          - com.rafaelmardojai.Blanket
+          - com.vysp3r.ProtonPlus
+          - de.haeckerfelix.Shortwave
+          - dev.bragefuglseth.Keypunch
+          - info.febvre.Komikku
+          - io.github.Foldex.AdwSteamGtk
+          - io.github.flattool.Warehouse
+          - io.github.ilya_zlobintsev.LACT
+          - io.github.realmazharhussain.GdmSettings
+          - io.github.mrvladus.List
+          - page.tesk.Refine
+          - page.codeberg.libre_menu_editor.LibreMenuEditor
+          - org.gtk.Gtk3theme.adw-gtk3
+          - org.gnome.seahorse.Application
+          - org.gnome.clocks
+          - org.gnome.World.PikaBackup
+          - org.gnome.TextEditor
+          - org.gnome.Maps
+          - org.gnome.Loupe
+          - org.gnome.Geary
+          - org.gnome.Decibels
+          - org.gnome.Contacts
+          - org.gnome.Calendar
+          - org.gnome.Calculator
+          - moe.tsuna.tsukimi
+          - io.missioncenter.MissionCenter
+          - io.gitlab.theevilskeleton.Upscaler
+          - io.gitlab.adhami3310.Impression
+          - io.github.seadve.Mousai
+          - com.github.finefindus.eyedropper
+          - it.mijorus.gearlever
+          - ca.desrt.dconf-editor
+          - org.gnome.NautilusPreviewer
+          - io.github.bytezz.IPLookup
+          - org.gnome.Logs
+  - type: signing
+  - type: gnome-extensions
+    install:
+      - Caffeine
+      - 6281
+      #- 6580
+      - 19
+      - 779
+      - Accent Icons
+      - Auto Accent Colour
+      - Alphabetical App Grid
+      #- Favorites to Applications Grid
+      - Night Theme Switcher
+      - Rounded Window Corners Reborn
+      - AppIndicator and KStatusNotifierItem Support
+      - Quick Close in Overview
+      #- Quick Settings Tweaks
+      - User Themes
+      - Wallpaper Slideshow
   - type: kargs
     kargs:
        - amdgpu.ppfeaturemask=0xfff7ffff
