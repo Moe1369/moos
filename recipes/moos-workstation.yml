@@ -1,7 +1,7 @@
 name: moos-workstation
 description: Opiniated Kinoite
 base-image: registry.fedoraproject.org/fedora-kinoite
-image-version: rawhide
+image-version: 43
 modules:
   - type: signing
   - type: files
