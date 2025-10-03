@@ -31,7 +31,7 @@ modules:
         - steam
         - steam-devices
         - gamescope
-        - kde-material-you-colors
+        #- kde-material-you-colors
         - mangohud
         - klassy
         - fastfetch
