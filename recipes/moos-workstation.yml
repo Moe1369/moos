@@ -30,11 +30,11 @@ modules:
         - steam
         - steam-devices
         - gamescope
-        - python-pywal
-        - python-pywal16
-        - python-materialyoucolor
-        - python-material-color-utilities-python
-        - kde-material-you-colors
+        #- python-pywal
+        #- python-pywal16
+        #- python-materialyoucolor
+        #- python-material-color-utilities-python
+        #- kde-material-you-colors
         - mangohud
         - klassy
         - fastfetch
