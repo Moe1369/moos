@@ -26,7 +26,6 @@ modules:
     install:
       packages:
         - brave-browser
-        - discord
         - Koi
         - steam
         - steam-devices
