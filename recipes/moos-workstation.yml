@@ -43,6 +43,22 @@ modules:
         repo:
           title: Flathub (system)
         install:
+          - org.gnome.seahorse.Application
+          - org.gnome.clocks
+          - org.gnome.World.PikaBackup
+          - org.gnome.TextEditor
+          - org.gnome.Maps
+          - org.gnome.Loupe
+          - org.gnome.Geary
+          - org.gnome.NautilusPreviewer
+          - org.gnome.Logs
+          - org.gnome.Decibels
+          - org.gnome.Contacts
+          - org.gnome.Calendar
+          - org.gnome.Calculator
+          - org.gnome.Papers
+          - org.gnome.Showtime
+          - org.gtk.Gtk3theme.adw-gtk3
           - com.anydesk.Anydesk
           - com.belmoussaoui.Obfuscate
           - io.github.flattool.Ignition
@@ -67,18 +83,6 @@ modules:
           - io.github.mrvladus.List
           - page.tesk.Refine
           - page.codeberg.libre_menu_editor.LibreMenuEditor
-          - org.gtk.Gtk3theme.adw-gtk3
-          - org.gnome.seahorse.Application
-          - org.gnome.clocks
-          - org.gnome.World.PikaBackup
-          - org.gnome.TextEditor
-          - org.gnome.Maps
-          - org.gnome.Loupe
-          - org.gnome.Geary
-          - org.gnome.Decibels
-          - org.gnome.Contacts
-          - org.gnome.Calendar
-          - org.gnome.Calculator
           - moe.tsuna.tsukimi
           - io.missioncenter.MissionCenter
           - io.gitlab.theevilskeleton.Upscaler
@@ -87,9 +91,7 @@ modules:
           - com.github.finefindus.eyedropper
           - it.mijorus.gearlever
           - ca.desrt.dconf-editor
-          - org.gnome.NautilusPreviewer
           - io.github.bytezz.IPLookup
-          - org.gnome.Logs
   - type: signing
   - type: gnome-extensions
     install:
