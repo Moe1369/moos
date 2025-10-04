@@ -29,6 +29,7 @@ modules:
         - ollama
         - rocm
         - 7z
+        - sassc
     remove:
       packages:
         - firefox
