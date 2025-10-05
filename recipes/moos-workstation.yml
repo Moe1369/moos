@@ -93,6 +93,8 @@ modules:
           - it.mijorus.gearlever
           - ca.desrt.dconf-editor
           - io.github.bytezz.IPLookup
+          - com.jeffser.Alpaca
+          - be.alexandervanhee.gradia
   - type: signing
   - type: gnome-extensions
     install:
