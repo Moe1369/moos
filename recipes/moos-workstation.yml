@@ -46,6 +46,7 @@ modules:
         install:
           - org.gnome.seahorse.Application
           - org.gnome.clocks
+          - org.gnome.Snapshot
           - org.gnome.World.PikaBackup
           - org.gnome.TextEditor
           - org.gnome.Maps
