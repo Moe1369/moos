@@ -95,6 +95,7 @@ modules:
           - io.github.bytezz.IPLookup
           - com.jeffser.Alpaca
           - be.alexandervanhee.gradia
+          - page.kramo.Cartridges
   - type: signing
   - type: gnome-extensions
     install:
