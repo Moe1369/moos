@@ -13,7 +13,8 @@ modules:
       copr:
         enable:
           - atim/starship
-          - sneed/amd-color
+          - bazzite-org/bazzite
+          - bazzite-org/bazzite-multilib
     install:
       packages:
         - fastfetch
@@ -25,6 +26,11 @@ modules:
         - steam-devices
         - mangohud
         - gamescope
+        - gamescope-session-plus
+        - gamescope-session-steam
+        - gamescope-session-opengamepadui
+        - ds-inhibit
+        - steamos-manager
         - adw-gtk3-theme
         - ollama
         - rocm
