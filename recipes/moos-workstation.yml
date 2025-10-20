@@ -35,8 +35,6 @@ modules:
         - adw-gtk3-theme
         - ollama
         - rocm
-        - 7z
-        - sassc
     remove:
       packages:
         - firefox
