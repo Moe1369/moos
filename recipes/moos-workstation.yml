@@ -40,6 +40,7 @@ modules:
         - adw-gtk3-theme
         - ollama
         - rocm
+        - sddm
     remove:
       packages:
         - firefox
