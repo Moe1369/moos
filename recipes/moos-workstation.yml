@@ -9,7 +9,6 @@ modules:
     repos:
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-        - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_42/home:luisbocanegra.repo
       nonfree: negativo17
       copr:
         enable:
@@ -21,7 +20,6 @@ modules:
       skip-broken: false
       packages:
         - brave-browser
-        - kde-material-you-colors
         - Koi
         - steam
         - steam-devices
