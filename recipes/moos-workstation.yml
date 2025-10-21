@@ -24,7 +24,6 @@ modules:
     install:
       skip-broken: false
       packages:
-        - https://github.com/LizardByte/Sunshine/releases/download/v2025.924.154138/Sunshine-2025.924.154138-1.fc42.x86_64.rpm
         - brave-browser
         - Koi
         - steam
