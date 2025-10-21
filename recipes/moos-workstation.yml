@@ -21,9 +21,11 @@ modules:
           - atim/starship
           - ilyaz/LACT
           - sneed/amd-color
+          - gmanka/nobara-42
     install:
       skip-broken: false
       packages:
+        - sunshine
         - brave-browser
         - Koi
         - steam
