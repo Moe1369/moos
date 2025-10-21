@@ -3,6 +3,10 @@ description: Opiniated Kinoite
 base-image: registry.fedoraproject.org/fedora-kinoite
 image-version: 43
 modules:
+  - type: files
+    files:
+      - source: system/etc/
+        destination: /etc/
   - type: dnf
     optfix:
       - brave.com
