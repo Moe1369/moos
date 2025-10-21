@@ -20,6 +20,7 @@ modules:
           - birkch/Koi
           - atim/starship
           - ilyaz/LACT
+          - sneed/amd-color
     install:
       skip-broken: false
       packages:
