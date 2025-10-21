@@ -37,7 +37,6 @@ modules:
         - steamos-manager
         - gnome-randr-rust
         - steam_notif_daemon
-        - ublue-update
         - adw-gtk3-theme
         - ollama
         - rocm
