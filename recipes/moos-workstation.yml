@@ -5,8 +5,12 @@ image-version: 43
 modules:
   - type: files
     files:
-      - source: system/etc/profile.d/
-        destination: /etc/profile.d
+      - source: system/etc/
+        destination: /etc/
+  - type: files
+    files:
+      - source: system/usr/
+        destination: /usr/
   - type: dnf
     repos:
       nonfree: rpmfusion
@@ -31,7 +35,9 @@ modules:
         - gamescope-session-opengamepadui
         - ds-inhibit
         - steamos-manager
-        #- sunshine
+        - gnome-randr-rust
+        - steam_notif_daemon
+        - ublue-update
         - adw-gtk3-theme
         - ollama
         - rocm
