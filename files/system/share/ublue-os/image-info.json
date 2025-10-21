@@ -1,0 +1,12 @@
+{
+  "image-name": "moos-workstation",
+  "image-flavor": "deck",
+  "image-vendor": "fedora",
+  "image-ref": "ghcr.io/moe1369/moos/moos-workstation:latest",
+  "image-tag": "latest",
+  "image-branch": "$IMAGE_BRANCH_NORMALIZED",
+  "base-image-name": "silverblue",
+  "fedora-version": "43",
+  "version": "latest",
+  "version-pretty": "43"
+}
