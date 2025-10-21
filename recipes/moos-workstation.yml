@@ -9,14 +9,14 @@ modules:
     repos:
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-        - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_Rawhide/home:luisbocanegra.repo
+        - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_42/home:luisbocanegra.repo
       nonfree: negativo17
       copr:
         enable:
           - errornointernet/klassy
           - birkch/Koi
           - atim/starship
-          - ilyaz/LACT  
+          - ilyaz/LACT
     install:
       skip-broken: false
       packages:
