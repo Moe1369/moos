@@ -1,46 +1,55 @@
 name: moos-workstation
-description: Opiniated Silverblue
-base-image: registry.fedoraproject.org/fedora-silverblue
+description: Opiniated Kinoite
+base-image: registry.fedoraproject.org/fedora-kinoite
 image-version: 43
 modules:
-  - type: files
-    files:
-      - source: system/etc/
-        destination: /etc/
-  - type: files
-    files:
-      - source: system/usr/
-        destination: /usr/
   - type: dnf
+    optfix:
+      - brave.com
     repos:
-      nonfree: rpmfusion
+      files:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+      nonfree: negativo17
       copr:
         enable:
+          - errornointernet/klassy
+          - birkch/Koi
           - atim/starship
-          - bazzite-org/bazzite
-          - bazzite-org/bazzite-multilib
+          - ilyaz/LACT  
     install:
+      skip-broken: false
       packages:
+        - brave-browser
+        - Koi
+        - steam
+        - steam-devices
+        - gamescope
+        - mangohud
+        - klassy
         - fastfetch
+        - chsh
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
-        - steam
-        - steam-devices
-        - mangohud
-        - gamescope
-        - gamescope-session-plus
-        - gamescope-session-steam
-        - gamescope-session-opengamepadui
-        - ds-inhibit
-        - steamos-manager
-        - gnome-randr-rust
-        - steam_notif_daemon
-        - adw-gtk3-theme
-        - ollama
-        - rocm
-        - sddm
+        - adwaita-fonts-all
+        - kate
+        - okular
+        - kfind
+        - haruna
+        - gwenview
+        - elisa
+        - vorta
+        - kolourpaint
+        - kdenlive
+        - krita
+        - isoimagewriter
+        - kcolorchooser
+        - kcalc
+        - kamoso
+        - krdc
+        - ksystemlog
+        - lact
     remove:
       packages:
         - firefox
@@ -50,89 +59,15 @@ modules:
         - virtualization
   - type: default-flatpaks
     configurations:
-      - notify: false
+      - notify: true
         scope: system
         repo:
           title: Flathub (system)
         install:
-          - org.gnome.seahorse.Application
-          - org.gnome.clocks
-          - org.gnome.Snapshot
-          - org.gnome.World.PikaBackup
-          - org.gnome.TextEditor
-          - org.gnome.Maps
-          - org.gnome.Loupe
-          - org.gnome.Geary
-          - org.gnome.NautilusPreviewer
-          - org.gnome.Logs
-          - org.gnome.Decibels
-          - org.gnome.Contacts
-          - org.gnome.Calendar
-          - org.gnome.Calculator
-          - org.gnome.Papers
-          - org.gnome.Showtime
-          - org.gtk.Gtk3theme.adw-gtk3
-          - com.anydesk.Anydesk
-          - com.belmoussaoui.Obfuscate
-          - io.github.flattool.Ignition
-          - com.brave.Browser
-          - com.cassidyjames.butler
           - com.discordapp.Discord
           - com.github.IsmaelMartinez.teams_for_linux
-          - com.github.maoschanz.drawing
-          - com.github.marhkb.Pods
-          - com.github.tchx84.Flatseal
-          - com.leinardi.gst
-          - com.mattjakeman.ExtensionManager
-          - com.rafaelmardojai.Blanket
-          - com.vysp3r.ProtonPlus
-          - de.haeckerfelix.Shortwave
-          - dev.bragefuglseth.Keypunch
-          - info.febvre.Komikku
-          - io.github.Foldex.AdwSteamGtk
-          - io.github.flattool.Warehouse
-          - io.github.ilya_zlobintsev.LACT
-          - io.github.realmazharhussain.GdmSettings
-          - io.github.mrvladus.List
-          - page.tesk.Refine
-          - page.codeberg.libre_menu_editor.LibreMenuEditor
-          - moe.tsuna.tsukimi
-          - io.missioncenter.MissionCenter
-          - io.gitlab.theevilskeleton.Upscaler
-          - io.gitlab.adhami3310.Impression
-          - io.github.seadve.Mousai
-          - com.github.finefindus.eyedropper
-          - it.mijorus.gearlever
-          - ca.desrt.dconf-editor
-          - io.github.bytezz.IPLookup
-          - com.jeffser.Alpaca
-          - be.alexandervanhee.gradia
-          - page.kramo.Cartridges
-  - type: systemd
-    system:
-      disabled:
-        - gdm.service
-      enabled:
-        - sddm.service
+          - net.davidotek.pupgui2
   - type: signing
-  - type: gnome-extensions
-    install:
-      - Caffeine
-      - 6281
-      #- 6580
-      - 19
-      - 779
-      - Accent Icons
-      - Auto Accent Colour
-      - Alphabetical App Grid
-      #- Favorites to Applications Grid
-      - Night Theme Switcher
-      - Rounded Window Corners Reborn
-      - AppIndicator and KStatusNotifierItem Support
-      - Quick Close in Overview
-      #- Quick Settings Tweaks
-      - User Themes
-      - Wallpaper Slideshow
   - type: kargs
     kargs:
        - amdgpu.ppfeaturemask=0xfff7ffff
