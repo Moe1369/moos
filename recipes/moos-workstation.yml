@@ -25,7 +25,6 @@ modules:
     install:
       skip-broken: false
       packages:
-        - Sunshine
         - brave-browser
         - Koi
         - steam
