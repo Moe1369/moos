@@ -27,6 +27,7 @@ modules:
       skip-broken: false
       packages:
         - Sunshine
+        - kde-material-you-colors
         - brave-browser
         - Koi
         - steam
