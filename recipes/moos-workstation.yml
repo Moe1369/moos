@@ -1,7 +1,7 @@
 name: moos-workstation
 description: Opiniated Kinoite
 base-image: registry.fedoraproject.org/fedora-kinoite
-image-version: 43
+image-version: 42
 modules:
   - type: files
     files:
@@ -13,6 +13,7 @@ modules:
     repos:
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+        - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_42/home:luisbocanegra.repo
       nonfree: rpmfusion
       copr:
         enable:
@@ -21,10 +22,11 @@ modules:
           - atim/starship
           - ilyaz/LACT
           - sneed/amd-color
-          - gmanka/nobara-42
+          - lizardbyte/beta
     install:
       skip-broken: false
       packages:
+        - Sunshine
         - brave-browser
         - Koi
         - steam
