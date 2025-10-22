@@ -1,6 +1,6 @@
 name: moos-workstation
 description: Opiniated Kinoite
-base-image: registry.fedoraproject.org/fedora-kinoite
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 42
 modules:
   - type: files
