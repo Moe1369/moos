@@ -26,6 +26,7 @@ modules:
     install:
       skip-broken: false
       packages:
+        - kontact
         - Sunshine
         - kde-material-you-colors
         - brave-browser
