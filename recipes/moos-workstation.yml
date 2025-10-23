@@ -27,6 +27,7 @@ modules:
       skip-broken: false
       packages:
         - kontact
+        - hunspell-de
         - Sunshine
         - kde-material-you-colors
         - brave-browser
