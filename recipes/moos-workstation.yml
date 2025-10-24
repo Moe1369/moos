@@ -26,7 +26,6 @@ modules:
     install:
       skip-broken: false
       packages:
-        - kvantum
         - libreoffice
         - kontact
         - hunspell-de
