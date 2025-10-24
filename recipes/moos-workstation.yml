@@ -26,6 +26,8 @@ modules:
     install:
       skip-broken: false
       packages:
+        - libreoffice
+        - kontact
         - hunspell-de
         - Sunshine
         - kde-material-you-colors
