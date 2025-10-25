@@ -27,6 +27,7 @@ modules:
       skip-broken: false
       packages:
         - libreoffice
+        - libreoffice-langpack-de
         - kontact
         - hunspell-de
         - Sunshine
