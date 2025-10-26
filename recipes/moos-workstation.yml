@@ -27,6 +27,7 @@ modules:
       packages:
         - docker
         - docker-compose
+        - Sunshine
         - libreoffice
         - libreoffice-langpack-de
         - kontact
