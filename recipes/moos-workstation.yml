@@ -26,6 +26,8 @@ modules:
     install:
       skip-broken: false
       packages:
+        - docker
+        - docker-compose
         - libreoffice
         - libreoffice-langpack-de
         - kontact
