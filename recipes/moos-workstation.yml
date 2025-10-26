@@ -14,7 +14,7 @@ modules:
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
         - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_43/home:luisbocanegra.repo
-      nonfree: negativo17
+      nonfree: rpmfusion
       copr:
         enable:
           - errornointernet/klassy
@@ -22,7 +22,6 @@ modules:
           - atim/starship
           - ilyaz/LACT
           - sneed/amd-color
-          - lizardbyte/beta
     install:
       skip-broken: false
       packages:
@@ -32,7 +31,6 @@ modules:
         - libreoffice-langpack-de
         - kontact
         - hunspell-de
-        - Sunshine
         - kde-material-you-colors
         - brave-browser
         - Koi
