@@ -24,7 +24,7 @@ modules:
           - sneed/amd-color
           - lizardbyte/stable
     install:
-      skip-broken: false
+      skip-broken: true
       packages:
         - Sunshine
         - libreoffice
