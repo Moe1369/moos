@@ -22,7 +22,7 @@ modules:
           - atim/starship
           - ilyaz/LACT
           - sneed/amd-color
-          - lizardbyte/stable
+          - lizardbyte/beta
     install:
       skip-broken: false
       packages:
