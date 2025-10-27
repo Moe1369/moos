@@ -26,7 +26,7 @@ modules:
     install:
       skip-broken: true
       packages:
-        - Sunshine
+        #- Sunshine
         - libreoffice
         - libreoffice-langpack-de
         - kontact
