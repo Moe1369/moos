@@ -14,7 +14,7 @@ modules:
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
         - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_43/home:luisbocanegra.repo
-      nonfree: rpmfusion
+      nonfree: negativo17
       copr:
         enable:
           - errornointernet/klassy
