@@ -1,6 +1,6 @@
 name: moos-workstation
-description: Opiniated Kinoite
-base-image: ghcr.io/ublue-os/kinoite-main
+description: Opiniated silverblue
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 43
 modules:
   - type: files
@@ -13,7 +13,6 @@ modules:
     repos:
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-        - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_43/home:luisbocanegra.repo
       nonfree: negativo17
       copr:
         enable:
@@ -27,42 +26,23 @@ modules:
       skip-broken: false
       packages:
         - Sunshine
-        - libreoffice
-        - libreoffice-langpack-de
-        - kontact
-        - hunspell-de
-        - kde-material-you-colors
-        - brave-browser
-        - Koi
-        - steam
-        - steam-devices
-        - gamescope
-        - mangohud
-        - klassy
         - fastfetch
-        - chsh
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
-        - adwaita-fonts-all
-        - kate
-        - okular
-        - kfind
-        - haruna
-        - gwenview
-        - elisa
-        - vorta
-        - kolourpaint
-        - kdenlive
-        - krita
-        - isoimagewriter
-        - kcolorchooser
-        - kcalc
-        - kamoso
-        - krdc
-        - ksystemlog
-        - lact
+        - steam
+        - steam-devices
+        - mangohud
+        - gamescope
+        - ds-inhibit
+        - steamos-manager
+        - gnome-randr-rust
+        - steam_notif_daemon
+        - ublue-update
+        - adw-gtk3-theme
+        - ollama
+        - rocm
     remove:
       packages:
         - firefox
@@ -77,10 +57,78 @@ modules:
         repo:
           title: Flathub (system)
         install:
+          - org.gnome.seahorse.Application
+          - org.gnome.clocks
+          - org.gnome.Snapshot
+          - org.gnome.World.PikaBackup
+          - org.gnome.TextEditor
+          - org.gnome.Maps
+          - org.gnome.Loupe
+          - org.gnome.Geary
+          - org.gnome.NautilusPreviewer
+          - org.gnome.Logs
+          - org.gnome.Decibels
+          - org.gnome.Contacts
+          - org.gnome.Calendar
+          - org.gnome.Calculator
+          - org.gnome.Papers
+          - org.gnome.Showtime
+          - org.gtk.Gtk3theme.adw-gtk3
+          - com.anydesk.Anydesk
+          - com.belmoussaoui.Obfuscate
+          - io.github.flattool.Ignition
+          - com.brave.Browser
+          - com.cassidyjames.butler
           - com.discordapp.Discord
           - com.github.IsmaelMartinez.teams_for_linux
-          - net.davidotek.pupgui2
+          - com.github.maoschanz.drawing
+          - com.github.marhkb.Pods
+          - com.github.tchx84.Flatseal
+          - com.leinardi.gst
+          - com.mattjakeman.ExtensionManager
+          - com.rafaelmardojai.Blanket
+          - com.vysp3r.ProtonPlus
+          - de.haeckerfelix.Shortwave
+          - dev.bragefuglseth.Keypunch
+          - info.febvre.Komikku
+          - io.github.Foldex.AdwSteamGtk
+          - io.github.flattool.Warehouse
+          - io.github.ilya_zlobintsev.LACT
+          - io.github.realmazharhussain.GdmSettings
+          - io.github.mrvladus.List
+          - page.tesk.Refine
+          - page.codeberg.libre_menu_editor.LibreMenuEditor
+          - moe.tsuna.tsukimi
+          - io.missioncenter.MissionCenter
+          - io.gitlab.theevilskeleton.Upscaler
+          - io.gitlab.adhami3310.Impression
+          - io.github.seadve.Mousai
+          - com.github.finefindus.eyedropper
+          - it.mijorus.gearlever
+          - ca.desrt.dconf-editor
+          - io.github.bytezz.IPLookup
+          - com.jeffser.Alpaca
+          - be.alexandervanhee.gradia
+          - page.kramo.Cartridges
   - type: signing
   - type: kargs
     kargs:
        - amdgpu.ppfeaturemask=0xfff7ffff
+  - type: gnome-extensions
+    install:
+      - Caffeine
+      - 6281
+      #- 6580
+      - 19
+      - 779
+      - Accent Icons
+      - Auto Accent Colour
+      - Alphabetical App Grid
+      #- Favorites to Applications Grid
+      - Night Theme Switcher
+      - Rounded Window Corners Reborn
+      - AppIndicator and KStatusNotifierItem Support
+      - Quick Close in Overview
+      #- Quick Settings Tweaks
+      - User Themes
+      - Wallpaper Slideshow
