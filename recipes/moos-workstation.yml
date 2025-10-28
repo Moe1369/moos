@@ -18,7 +18,7 @@ modules:
         enable:
           - atim/starship
           - sneed/amd-color
-          - lizardbyte/beta
+          - lizardbyte/stable
     install:
       skip-broken: false
       packages:
