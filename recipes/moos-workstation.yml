@@ -16,10 +16,7 @@ modules:
       nonfree: negativo17
       copr:
         enable:
-          - errornointernet/klassy
-          - birkch/Koi
           - atim/starship
-          - ilyaz/LACT
           - sneed/amd-color
           - lizardbyte/beta
     install:
@@ -77,7 +74,6 @@ modules:
           - com.anydesk.Anydesk
           - com.belmoussaoui.Obfuscate
           - io.github.flattool.Ignition
-          - com.brave.Browser
           - com.cassidyjames.butler
           - com.discordapp.Discord
           - com.github.IsmaelMartinez.teams_for_linux
