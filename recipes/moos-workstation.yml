@@ -84,7 +84,7 @@ modules:
           - page.tesk.Refine
           - page.codeberg.libre_menu_editor.LibreMenuEditor
           - moe.tsuna.tsukimi
-          - io.missioncenter.MissionCenter
+          - net.nokyan.Resources
           - io.gitlab.theevilskeleton.Upscaler
           - io.gitlab.adhami3310.Impression
           - io.github.seadve.Mousai
