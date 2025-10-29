@@ -13,7 +13,7 @@ modules:
       copr:
         enable:
           - atim/starship
-          - lizardbyte/beta
+          - lizardbyte/stable
     install:
       packages:
         - Sunshine
@@ -32,6 +32,7 @@ modules:
         - firefox
         - firefox-langpacks
         - nvtop
+        - htop
     group-install:
       packages:
         - virtualization
@@ -102,17 +103,14 @@ modules:
     install:
       - Caffeine
       - 6281
-      #- 6580
       - 19
       - 779
       - Accent Icons
       - Auto Accent Colour
       - Alphabetical App Grid
-      #- Favorites to Applications Grid
       - Night Theme Switcher
       - Rounded Window Corners Reborn
       - AppIndicator and KStatusNotifierItem Support
       - Quick Close in Overview
-      #- Quick Settings Tweaks
       - User Themes
       - Wallpaper Slideshow
