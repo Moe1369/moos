@@ -27,7 +27,6 @@ modules:
         - steam-devices
         - mangohud
         - gamescope
-        - adw-gtk3-theme
     remove:
       packages:
         - firefox
