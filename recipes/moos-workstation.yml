@@ -9,7 +9,7 @@ modules:
         destination: /etc/
   - type: dnf
     repos:
-      nonfree: rpmfusion
+      nonfree: negativo17
       copr:
         enable:
           - atim/starship
