@@ -13,7 +13,7 @@ modules:
       copr:
         enable:
           - atim/starship
-          - lizardbyte/stable
+          - lizardbyte/beta
     install:
       skip-broken: false
       packages:
@@ -21,6 +21,7 @@ modules:
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
+        - chsh
         - starship
         - steam
         - steam-devices
@@ -30,6 +31,7 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
+        - nvtop
     group-install:
       packages:
         - virtualization
