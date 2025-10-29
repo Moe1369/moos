@@ -13,7 +13,7 @@ modules:
       copr:
         enable:
           - atim/starship
-          - lizardbyte/stable
+          - lizardbyte/beta
     install:
       packages:
         - Sunshine
