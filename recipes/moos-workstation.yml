@@ -17,6 +17,7 @@ modules:
     install:
       skip-broken: false
       packages:
+        - Sunshine
         - fastfetch
         - zsh
         - zsh-autosuggestions
