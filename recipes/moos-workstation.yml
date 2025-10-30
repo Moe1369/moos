@@ -44,6 +44,8 @@ modules:
           title: Flathub (system)
         install:
           - com.brave.Browser
+          - com.mardojai.ForgeSparks
+          - re.sonny.Commit
           - org.gnome.seahorse.Application
           - org.gnome.clocks
           - org.gnome.Snapshot
