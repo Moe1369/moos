@@ -97,6 +97,8 @@ modules:
           - io.github.bytezz.IPLookup
           - com.jeffser.Alpaca
           - be.alexandervanhee.gradia
+          - net.codelogistics.webapps
+          - de.schmidhuberj.Flare
   - type: signing
   - type: kargs
     kargs:
