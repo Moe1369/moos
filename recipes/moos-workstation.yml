@@ -21,7 +21,7 @@ modules:
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
-        - util-linux
+        - util-linux-user
         - starship
         - steam
         - steam-devices
