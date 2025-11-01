@@ -78,7 +78,6 @@ modules:
           - com.vysp3r.ProtonPlus
           - de.haeckerfelix.Shortwave
           - dev.bragefuglseth.Keypunch
-          - info.febvre.Komikku
           - io.github.Foldex.AdwSteamGtk
           - io.github.flattool.Warehouse
           - io.github.ilya_zlobintsev.LACT
