@@ -98,7 +98,7 @@ modules:
           - com.jeffser.Alpaca
           - be.alexandervanhee.gradia
           - net.codelogistics.webapps
-          - de.schmidhuberj.Flare
+          - de.k_bo.Televido
   - type: signing
   - type: kargs
     kargs:
