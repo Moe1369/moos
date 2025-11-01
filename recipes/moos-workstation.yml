@@ -95,7 +95,7 @@ modules:
           - it.mijorus.gearlever
           - ca.desrt.dconf-editor
           - io.github.bytezz.IPLookup
-          - com.jeffser.Alpaca
+          - de.leopoldluley.Clapgrep
           - be.alexandervanhee.gradia
           - net.codelogistics.webapps
           - de.k_bo.Televido
