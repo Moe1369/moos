@@ -29,6 +29,7 @@ jobs:
           # !! Add your recipes here
           - moos-workstation.yml
           - moos-server.yml
+          - moos-konsole.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
