@@ -1,4 +1,4 @@
-name: moos-workstation
+name: moos-konsole
 description: Opiniated Bazzite Deck Image
 base-image: ghcr.io/ublue-os/bazzite-deck
 image-version: stable
