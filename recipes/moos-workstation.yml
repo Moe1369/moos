@@ -44,7 +44,6 @@ modules:
         repo:
           title: Flathub (system)
         install:
-          - https://downloads.1password.com/linux/flatpak/1Password.flatpakref
           - com.brave.Browser
           - com.mardojai.ForgeSparks
           - re.sonny.Commit
