@@ -8,7 +8,12 @@ modules:
       - source: system/etc/
         destination: /etc/
   - type: dnf
+    optfix:
+      - brave.com
+      - 1Password
     repos:
+      files: 
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       nonfree: negativo17
       copr:
         enable:
@@ -16,7 +21,9 @@ modules:
           - lizardbyte/beta
     install:
       packages:
+        - https://downloads.1password.com/linux/rpm/stable/x86_64/1password-latest.rpm
         - https://github.com/joshuar/go-hass-agent/releases/download/v14.1.1/go-hass-agent-14.1.1-1.x86_64.rpm
+        - brave-browser
         - Sunshine
         - fastfetch
         - zsh
