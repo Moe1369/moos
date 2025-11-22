@@ -21,6 +21,7 @@ modules:
           - lizardbyte/beta
     install:
       packages:
+        - https://downloads.1password.com/linux/rpm/stable/x86_64/1password-cli-latest.x86_64.rpm
         - https://downloads.1password.com/linux/rpm/stable/x86_64/1password-latest.rpm
         - https://github.com/joshuar/go-hass-agent/releases/download/v14.1.1/go-hass-agent-14.1.1-1.x86_64.rpm
         - brave-browser
