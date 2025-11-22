@@ -10,6 +10,7 @@ modules:
   - type: dnf
     optfix:
       - brave.com
+      - 1Password
     repos:
       files: 
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
