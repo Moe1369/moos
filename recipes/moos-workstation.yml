@@ -21,8 +21,6 @@ modules:
           - lizardbyte/beta
     install:
       packages:
-        - 1password
-        - 1password-cli
         - https://github.com/joshuar/go-hass-agent/releases/download/v14.1.1/go-hass-agent-14.1.1-1.x86_64.rpm
         - brave-browser
         - Sunshine
@@ -45,6 +43,9 @@ modules:
     group-install:
       packages:
         - virtualization
+  - type: 
+    install:
+      - 1password
   - type: default-flatpaks
     configurations:
       - notify: false
