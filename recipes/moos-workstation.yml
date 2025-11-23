@@ -11,8 +11,8 @@ modules:
     repos:
       files: 
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-        #- https://negativo17.org/repos/fedora-steam.repo
-      nonfree: rpmfusion
+        - https://negativo17.org/repos/fedora-steam.repo
+      #nonfree: rpmfusion
       copr:
         enable:
           - atim/starship
