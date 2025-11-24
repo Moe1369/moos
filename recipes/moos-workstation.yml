@@ -37,9 +37,6 @@ modules:
         - firefox-langpacks
         - nvtop
         - htop
-    group-install:
-      packages:
-        - virtualization
   - type: bling
     install:
       - 1password
