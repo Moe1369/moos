@@ -47,8 +47,6 @@ modules:
         repo:
           title: Flathub (system)
         install:
-          - com.mardojai.ForgeSparks
-          - re.sonny.Commit
           - org.gnome.seahorse.Application
           - org.gnome.clocks
           - org.gnome.Snapshot
