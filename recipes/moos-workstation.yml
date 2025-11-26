@@ -81,7 +81,6 @@ modules:
           - dev.bragefuglseth.Keypunch
           - io.github.Foldex.AdwSteamGtk
           - io.github.flattool.Warehouse
-          - io.github.ilya_zlobintsev.LACT
           - io.github.realmazharhussain.GdmSettings
           - io.github.mrvladus.List
           - page.tesk.Refine
@@ -100,15 +99,14 @@ modules:
           - net.codelogistics.webapps
           - de.k_bo.Televido
   - type: signing
-  - type: kargs
-    kargs:
-       - amdgpu.ppfeaturemask=0xfff7ffff
   - type: gnome-extensions
     install:
       - Caffeine
-      - 6281
-      - 19
-      - 779
+      - Dock!ng
+      - Foresight
+      - Quick Settings Audio Panel
+      - Tinted Shell
+      - Clipboard Indicator
       - Accent Icons
       - Auto Accent Colour
       - Alphabetical App Grid
@@ -116,5 +114,4 @@ modules:
       - Rounded Window Corners Reborn
       - AppIndicator and KStatusNotifierItem Support
       - Quick Close in Overview
-      - User Themes
       - Wallpaper Slideshow
