@@ -111,7 +111,8 @@ modules:
       - Foresight
       - Quick Settings Audio Panel
       - Tinted Shell
-      - Clipboard Indicator
+      # Clipboard Indicator
+      - 779
       - Accent Icons
       - Auto Accent Colour
       - Alphabetical App Grid
