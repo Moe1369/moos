@@ -15,7 +15,6 @@ modules:
       copr:
         enable:
           - atim/starship
-          - ublue-os/packages
           - lizardbyte/beta
     install:
       packages:
@@ -32,7 +31,6 @@ modules:
         - steam-devices
         - mangohud
         - gamescope
-        - uupd
     remove:
       packages:
         - firefox
