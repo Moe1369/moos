@@ -28,6 +28,7 @@ modules:
         - brave-browser
         - Sunshine
         - Koi
+        - kmail
         - fastfetch
         - zsh
         - zsh-autosuggestions
