@@ -1,6 +1,6 @@
 name: moos-workstation
 description: Opiniated silverblue
-base-image: ghcr.io/ublue-os/fedora-kinoite
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 43
 modules:
   - type: files
