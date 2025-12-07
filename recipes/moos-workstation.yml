@@ -19,10 +19,12 @@ modules:
           - lizardbyte/beta
           - birkch/Koi
           - errornointernet/klassy
+          - matinlotfali/KDE-Rounded-Corners
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v14.1.1/go-hass-agent-14.1.1-1.x86_64.rpm
         - kde-material-you-colors
+        - kwin-effect-roundcorners
         - brave-browser
         - Sunshine
         - Koi
