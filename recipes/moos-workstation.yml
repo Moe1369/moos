@@ -7,6 +7,8 @@ modules:
     files:
       - source: system/etc/
         destination: /etc/
+      - source: system/usr/
+        destination: /usr/
   - type: dnf
     repos:
       files: 
