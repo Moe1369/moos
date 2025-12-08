@@ -14,7 +14,6 @@ modules:
       enabled:
         - flatpak-system-update.timer
         - bootc-update-stage.timer
-        #- libvirtd.service
   - type: dnf
     repos:
       files: 
