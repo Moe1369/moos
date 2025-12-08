@@ -1,6 +1,6 @@
 name: moos-workstation
 description: Opiniated silverblue
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 43
 modules:
   - type: files
@@ -11,24 +11,17 @@ modules:
     repos:
       files: 
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-        - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_43/home:luisbocanegra.repo
         - https://negativo17.org/repos/fedora-steam.repo
       copr:
         enable:
           - atim/starship
           - lizardbyte/beta
-          - birkch/Koi
-          - errornointernet/klassy
-          - matinlotfali/KDE-Rounded-Corners
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v14.1.1/go-hass-agent-14.1.1-1.x86_64.rpm
-        - kde-material-you-colors
-        - kwin-effect-roundcorners
+        - https://github.com/oscar370/Matuda/releases/download/v1.0.1/Matuda-1.0.0-1.x86_64.rpm
         - brave-browser
         - Sunshine
-        - Koi
-        - kontact
         - fastfetch
         - zsh
         - zsh-autosuggestions
@@ -39,24 +32,6 @@ modules:
         - steam-devices
         - mangohud
         - gamescope
-        - klassy
-        - adwaita-fonts-all
-        - kate
-        - okular
-        - kfind
-        - haruna
-        - gwenview
-        - elisa
-        - vorta
-        - kolourpaint
-        - kdenlive
-        - krita
-        - isoimagewriter
-        - kcolorchooser
-        - kcalc
-        - kamoso
-        - krdc
-        - ksystemlog
     remove:
       packages:
         - firefox
@@ -76,7 +51,72 @@ modules:
         repo:
           title: Flathub (system)
         install:
+          - org.gnome.seahorse.Application
+          - org.gnome.clocks
+          - org.gnome.Snapshot
+          - org.gnome.World.PikaBackup
+          - org.gnome.TextEditor
+          - org.gnome.Maps
+          - org.gnome.Loupe
+          - org.gnome.Geary
+          - org.gnome.NautilusPreviewer
+          - org.gnome.Logs
+          - org.gnome.Decibels
+          - org.gnome.Contacts
+          - org.gnome.Calendar
+          - org.gnome.Calculator
+          - org.gnome.Papers
+          - org.gnome.Showtime
+          - org.gtk.Gtk3theme.adw-gtk3
+          - com.anydesk.Anydesk
+          - com.belmoussaoui.Obfuscate
+          - io.github.flattool.Ignition
+          - com.cassidyjames.butler
           - com.discordapp.Discord
           - com.github.IsmaelMartinez.teams_for_linux
-          - net.davidotek.pupgui2
+          - com.github.maoschanz.drawing
+          - com.github.marhkb.Pods
+          - com.github.tchx84.Flatseal
+          - com.leinardi.gst
+          - com.mattjakeman.ExtensionManager
+          - com.rafaelmardojai.Blanket
+          - com.vysp3r.ProtonPlus
+          - de.haeckerfelix.Shortwave
+          - dev.bragefuglseth.Keypunch
+          - io.github.Foldex.AdwSteamGtk
+          - io.github.flattool.Warehouse
+          - io.github.realmazharhussain.GdmSettings
+          - io.github.mrvladus.List
+          - page.tesk.Refine
+          - page.codeberg.libre_menu_editor.LibreMenuEditor
+          - moe.tsuna.tsukimi
+          - net.nokyan.Resources
+          - io.gitlab.theevilskeleton.Upscaler
+          - io.gitlab.adhami3310.Impression
+          - io.github.seadve.Mousai
+          - com.github.finefindus.eyedropper
+          - it.mijorus.gearlever
+          - ca.desrt.dconf-editor
+          - io.github.bytezz.IPLookup
+          - de.leopoldluley.Clapgrep
+          - be.alexandervanhee.gradia
+          - net.codelogistics.webapps
+          - de.k_bo.Televido
   - type: signing
+  - type: gnome-extensions
+    install:
+      - Caffeine
+      - Dock!ng
+      - Foresight
+      - Quick Settings Audio Panel
+      - Tinted Shell
+      # Clipboard Indicator
+      - 779
+      - Accent Icons
+      - Auto Accent Colour
+      - Alphabetical App Grid
+      - Night Theme Switcher
+      - Rounded Window Corners Reborn
+      - AppIndicator and KStatusNotifierItem Support
+      - Quick Close in Overview
+      - Wallpaper Slideshow
