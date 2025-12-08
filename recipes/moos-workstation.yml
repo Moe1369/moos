@@ -9,6 +9,11 @@ modules:
         destination: /etc/
       - source: system/usr/
         destination: /usr/
+  - type: systemd
+    system:
+      enabled:
+        - flatpak-system-update.timer
+        - bootc-update-stage.timer
   - type: dnf
     repos:
       files: 
