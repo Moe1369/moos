@@ -31,6 +31,7 @@ modules:
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v14.1.1/go-hass-agent-14.1.1-1.x86_64.rpm
+        - https://download.parallels.com/ras/v21/21.0.0.26247/RASClient-sso-21.0.26247_x86_64.rpm
         - kde-material-you-colors
         - kwin-effect-roundcorners
         - brave-browser
