@@ -79,7 +79,7 @@ modules:
           - com.belmoussaoui.Obfuscate
           - io.github.flattool.Ignition
           - com.cassidyjames.butler
-          - com.discordapp.Discord
+          - dev.vencord.Vesktop
           - com.github.IsmaelMartinez.teams_for_linux
           - com.github.maoschanz.drawing
           - com.github.marhkb.Pods
