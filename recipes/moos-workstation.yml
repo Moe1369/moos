@@ -26,7 +26,6 @@ modules:
           - trixieua/morewaita-icon-theme
     install:
       packages:
-        - https://github.com/joshuar/go-hass-agent/releases/download/v14.1.1/go-hass-agent-14.1.1-1.x86_64.rpm
         - https://github.com/oscar370/Matuda/releases/download/v1.0.2/Matuda-1.0.2-1.x86_64.rpm
         - brave-browser
         - morewaita-icon-theme
