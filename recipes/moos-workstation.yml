@@ -85,8 +85,8 @@ modules:
         scope: system
         repo:
           title: Flathub (system)
-        install:
-          - com.discordapp.Discord
-          - com.github.IsmaelMartinez.teams_for_linux
-          - net.davidotek.pupgui2
+        #install:
+          #- com.discordapp.Discord
+          #- com.github.IsmaelMartinez.teams_for_linux
+          #- net.davidotek.pupgui2
   - type: signing
