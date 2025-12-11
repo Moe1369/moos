@@ -23,10 +23,12 @@ modules:
         enable:
           - atim/starship
           - lizardbyte/beta
+          - trixieua/morewaita-icon-theme
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v14.1.1/go-hass-agent-14.1.1-1.x86_64.rpm
         - brave-browser
+        - morewaita-icon-theme
         - Sunshine
         - fastfetch
         - zsh
