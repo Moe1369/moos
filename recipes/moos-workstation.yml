@@ -60,6 +60,7 @@ modules:
         repo:
           title: Flathub (system)
         install:
+          - io.github.celluloid_player.Celluloid
           - org.gnome.seahorse.Application
           - org.gnome.clocks
           - org.gnome.Snapshot
@@ -75,7 +76,6 @@ modules:
           - org.gnome.Calendar
           - org.gnome.Calculator
           - org.gnome.Papers
-          - org.gnome.Showtime
           - org.gtk.Gtk3theme.adw-gtk3
           - com.belmoussaoui.Obfuscate
           - io.github.flattool.Ignition
