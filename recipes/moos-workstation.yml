@@ -45,6 +45,7 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
+        - gnome-software
         - nvtop
         - htop
     group-install:
@@ -61,7 +62,9 @@ modules:
           title: Flathub (system)
         install:
           - io.github.celluloid_player.Celluloid
+          - com.usebottles.bottles
           - org.gnome.seahorse.Application
+          - io.github.kolunmi.Bazaar
           - org.gnome.clocks
           - org.gnome.Snapshot
           - org.gnome.World.PikaBackup
