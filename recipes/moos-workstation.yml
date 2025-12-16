@@ -3,6 +3,12 @@ description: Opiniated silverblue
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 43
 modules:
+ - type: os-release
+   properties:
+     ID: moos
+     ID_LIKE: fedora
+     NAME: Moos
+     PRETTY_NAME: Moos Workstation Edition
   - type: files
     files:
       - source: system/etc/
@@ -29,7 +35,6 @@ modules:
       packages:
         - https://github.com/oscar370/Matuda/releases/download/v1.0.2/Matuda-1.0.2-1.x86_64.rpm
         - brave-browser
-        - morewaita-icon-theme
         - Sunshine
         - fastfetch
         - zsh
