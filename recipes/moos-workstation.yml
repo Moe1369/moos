@@ -4,10 +4,14 @@ base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 43
 modules:
   - type: os-release
-      ID: moos
-      ID_LIKE: fedora
-      NAME: Moos
-      PRETTY_NAME: Moos Workstation Edition
+      ID: 
+        - moos
+      ID_LIKE: 
+        - fedora
+      NAME: 
+        - Moos
+      PRETTY_NAME: 
+        - Moos Workstation Edition
   - type: files
     files:
       - source: system/etc/
