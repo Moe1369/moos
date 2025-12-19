@@ -31,9 +31,6 @@ modules:
         - nvtop
         - htop
         - lutris
-    group-install:
-      packages:
-        - virtualization
   - type: default-flatpaks
     configurations:
       - notify: false
