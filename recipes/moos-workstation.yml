@@ -30,13 +30,13 @@ modules:
         enable:
           - atim/starship
           - lizardbyte/beta
-          - trixieua/morewaita-icon-theme
     install:
       packages:
-        - https://github.com/oscar370/Matuda/releases/download/v1.0.2/Matuda-1.0.2-1.x86_64.rpm
         - brave-browser
         - Sunshine
         - fastfetch
+        - ollama
+        - rocm
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
