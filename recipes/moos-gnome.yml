@@ -8,7 +8,7 @@ modules:
       ID: moos
       ID_LIKE: fedora
       NAME: Moos
-      PRETTY_NAME: Moos Workstation Edition
+      PRETTY_NAME: Moos Workstation - Gnome Edition
   - type: files
     files:
       - source: system/etc/
