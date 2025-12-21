@@ -1,8 +1,14 @@
 name: moos-workstation
-description: Opiniated silverblue
+description: Opiniated Kinoite
 base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 43
 modules:
+  - type: os-release
+    properties:
+      ID: moos
+      ID_LIKE: fedora
+      NAME: Moos
+      PRETTY_NAME: Moos Workstation - KDE Edition
   - type: files
     files:
       - source: system/etc/
