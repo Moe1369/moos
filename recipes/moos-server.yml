@@ -25,7 +25,6 @@ modules:
         - htop
         - borgbackup
         - borgmatic
-        - policycoreutils-python-utils
     remove:
       packages:
         - zincati
