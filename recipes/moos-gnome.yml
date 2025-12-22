@@ -30,6 +30,7 @@ modules:
         enable:
           - atim/starship
           - lizardbyte/beta
+          - principis/howdy
     install:
       packages:
         - brave-browser
@@ -45,6 +46,7 @@ modules:
         - mangohud
         - gamescope
         - ollama
+        - howdy
     remove:
       packages:
         - firefox
