@@ -44,6 +44,7 @@ modules:
         - steam-devices
         - mangohud
         - gamescope
+        - ollama
     remove:
       packages:
         - firefox
