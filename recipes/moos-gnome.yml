@@ -1,4 +1,4 @@
-name: moos-gnome
+name: moos-workstation
 description: Opiniated silverblue
 base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 43
@@ -35,8 +35,6 @@ modules:
         - brave-browser
         - Sunshine
         - fastfetch
-        - ollama
-        - rocm
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
