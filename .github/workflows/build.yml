@@ -27,8 +27,7 @@ jobs:
       matrix:
         recipe:
           # !! Add your recipes here
-          - moos-gnome.yml
-          - moos-kde.yml
+          - moos-workstation.yml
           - moos-server.yml
           - moos-konsole.yml
     steps:
