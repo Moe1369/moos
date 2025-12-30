@@ -45,6 +45,8 @@ modules:
         - mangohud
         - gamescope
         - ollama
+        - libgda
+        - libgda-sqlite
     remove:
       packages:
         - firefox
