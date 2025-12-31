@@ -3,12 +3,6 @@ description: Opiniated Server Image
 base-image: ghcr.io/ublue-os/fedora-coreos
 image-version: stable-zfs
 modules:
-  - type: os-release
-    properties:
-      ID: moos
-      ID_LIKE: fedora
-      NAME: Moos
-      PRETTY_NAME: Moos Server Edition
   - type: dnf
     repos:
       copr:
