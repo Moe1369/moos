@@ -123,11 +123,14 @@ modules:
   - type: gnome-extensions
     install:
       - Caffeine
+      - Copyous
+      - Quick 
       - Dock!ng
       - Foresight
       - Quick Settings Audio Panel
+      - Quick Settings Audio Devices Hider
+      - Quick Settings Audio Devices Renamer
       - Tinted Shell
-      - 779
       - Accent Icons
       - Auto Accent Colour
       - Alphabetical App Grid
