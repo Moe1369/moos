@@ -119,12 +119,12 @@ modules:
           - be.alexandervanhee.gradia
           - net.codelogistics.webapps
           - de.k_bo.Televido
+          - io.github.ilya_zlobintsev.LACT
   - type: signing
   - type: gnome-extensions
     install:
       - Caffeine
       - Copyous
-      - Quick 
       - Dock!ng
       - Foresight
       - Quick Settings Audio Panel
