@@ -14,13 +14,10 @@ modules:
       - source: system/etc/
         destination: /etc/
   - type: dnf
-    optfix:
-      - chrome
     repos:
       files: 
         - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_43/home:luisbocanegra.repo
         - https://negativo17.org/repos/fedora-steam.repo
-        - https://dl.google.com/linux/chrome/rpm/stable/x86_64/google-chrome-stable.repo
       copr:
         enable:
           - atim/starship
@@ -29,7 +26,7 @@ modules:
           - errornointernet/klassy
     install:
       packages:
-        - google-chrome-stable
+        - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
         - kde-material-you-colors
         - Sunshine
         - Koi
