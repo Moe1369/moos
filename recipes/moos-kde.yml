@@ -21,14 +21,12 @@ modules:
       copr:
         enable:
           - atim/starship
-          - lizardbyte/beta
           - birkch/Koi
           - errornointernet/klassy
     install:
       packages:
         - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
         - kde-material-you-colors
-        - Sunshine
         - Koi
         - fastfetch
         - zsh
@@ -58,7 +56,6 @@ modules:
         - kamoso
         - krdc
         - ksystemlog
-        - libreoffice
     remove:
       packages:
         - firefox
