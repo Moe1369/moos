@@ -17,11 +17,12 @@ modules:
           - atim/starship
           - birkch/Koi
           - errornointernet/klassy
+          - lizardbyte/beta
     install:
       packages:
         - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
         - kde-material-you-colors
-        - Koi
+        - Sunshine
         - fastfetch
         - zsh
         - zsh-autosuggestions
