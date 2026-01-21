@@ -120,6 +120,7 @@ modules:
           - net.codelogistics.webapps
           - de.k_bo.Televido
           - io.github.ilya_zlobintsev.LACT
+          - io.github.qwersyk.Newelle
   - type: signing
   - type: gnome-extensions
     install:
