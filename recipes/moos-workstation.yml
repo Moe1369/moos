@@ -9,7 +9,6 @@ modules:
         destination: /etc/
   - type: dnf
     repos:
-      files: 
       copr:
         enable:
           - atim/starship
