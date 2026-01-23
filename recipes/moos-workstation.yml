@@ -36,22 +36,6 @@ modules:
         - gamescope
         - klassy
         - adwaita-fonts-all
-        - kate
-        - okular
-        - kfind
-        - haruna
-        - gwenview
-        - elisa
-        - vorta
-        - kolourpaint
-        - kdenlive
-        - krita
-        - isoimagewriter
-        - kcolorchooser
-        - kcalc
-        - kamoso
-        - krdc
-        - ksystemlog
     remove:
       packages:
         - firefox
