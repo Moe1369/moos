@@ -1,6 +1,6 @@
 name: moos-workstation
-description: Opiniated Kinoite
-base-image: ghcr.io/ublue-os/kinoite-main
+description: Opiniated Silverblue
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 43
 modules:
   - type: files
@@ -10,21 +10,14 @@ modules:
   - type: dnf
     repos:
       files: 
-        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-        - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_43/home:luisbocanegra.repo
         - https://negativo17.org/repos/fedora-steam.repo
       copr:
         enable:
           - atim/starship
           - lizardbyte/beta
-          - birkch/Koi
-          - errornointernet/klassy
     install:
       packages:
-        - kde-material-you-colors
-        - brave-browser
         - Sunshine
-        - Koi
         - fastfetch
         - zsh
         - zsh-autosuggestions
@@ -34,8 +27,6 @@ modules:
         - steam-devices
         - mangohud
         - gamescope
-        - klassy
-        - adwaita-fonts-all
     remove:
       packages:
         - firefox
@@ -57,5 +48,4 @@ modules:
         install:
           - dev.vencord.Vesktop
           - com.github.IsmaelMartinez.teams_for_linux
-          - net.davidotek.pupgui2
   - type: signing
