@@ -9,12 +9,15 @@ modules:
         destination: /etc/
   - type: dnf
     repos:
+      files: 
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
         enable:
           - atim/starship
           - lizardbyte/beta
     install:
       packages:
+        - brave-browser
         - Sunshine
         - fastfetch
         - zsh
