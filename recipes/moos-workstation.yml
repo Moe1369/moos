@@ -21,6 +21,7 @@ modules:
         - Sunshine
         - fastfetch
         - zsh
+        - systemd-container
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
