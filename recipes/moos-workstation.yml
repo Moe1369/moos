@@ -28,6 +28,7 @@ modules:
         - steam-devices
         - libgda
         - libgda-sqlite
+        - make
     remove:
       packages:
         - firefox
