@@ -26,6 +26,7 @@ modules:
         - zsh-syntax-highlighting
         - starship
         - steam-devices
+        - libgda
     remove:
       packages:
         - firefox
