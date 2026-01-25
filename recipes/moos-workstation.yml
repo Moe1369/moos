@@ -27,6 +27,7 @@ modules:
         - starship
         - steam-devices
         - libgda
+        - libgda-sqlite
     remove:
       packages:
         - firefox
