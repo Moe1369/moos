@@ -29,6 +29,8 @@ modules:
         - libgda
         - libgda-sqlite
         - make
+        - papirus-icon-theme-dark
+        - papirus-icon-theme-light
     remove:
       packages:
         - firefox
