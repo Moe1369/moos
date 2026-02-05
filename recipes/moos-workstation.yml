@@ -30,8 +30,7 @@ modules:
         - libgda
         - libgda-sqlite
         - make
-        - papirus-icon-theme-dark
-        - papirus-icon-theme-light
+        - rocm
     remove:
       packages:
         - firefox
