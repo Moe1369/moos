@@ -35,10 +35,6 @@ modules:
         - gamescope
         - klassy
         - adwaita-fonts-all
-        - kate
-        - okular
-        - kfind
-        - haruna
         - gwenview
         - elisa
         - vorta
@@ -68,3 +64,5 @@ modules:
           - net.davidotek.pupgui2
           - com.google.Chrome
           - org.libreoffice.LibreOffice
+          - org.kde.okular
+          - org.kde.haruna
