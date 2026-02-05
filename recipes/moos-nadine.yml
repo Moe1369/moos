@@ -21,7 +21,6 @@ modules:
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v14.5.0/go-hass-agent-14.5.0-1.x86_64.rpm
-        - https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
         - kde-material-you-colors
         - Sunshine
         - fastfetch
@@ -67,3 +66,5 @@ modules:
         install:
           - com.discordapp.Discord
           - net.davidotek.pupgui2
+          - com.google.Chrome
+          - org.libreoffice.LibreOffice
