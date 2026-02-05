@@ -35,18 +35,6 @@ modules:
         - gamescope
         - klassy
         - adwaita-fonts-all
-        - gwenview
-        - elisa
-        - vorta
-        - kolourpaint
-        - kdenlive
-        - krita
-        - isoimagewriter
-        - kcolorchooser
-        - kcalc
-        - kamoso
-        - krdc
-        - ksystemlog
     remove:
       packages:
         - firefox
@@ -66,3 +54,5 @@ modules:
           - org.libreoffice.LibreOffice
           - org.kde.okular
           - org.kde.haruna
+          - org.kde.gwenview
+          - org.kde.kcalc
