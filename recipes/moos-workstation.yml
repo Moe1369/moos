@@ -11,6 +11,7 @@ modules:
     repos:
       files: 
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+        - https://negativo17.org/repos/fedora-steam.repo
       copr:
         enable:
           - atim/starship
@@ -22,9 +23,10 @@ modules:
         - Sunshine
         - fastfetch
         - zsh
-        - systemd-container
         - zsh-autosuggestions
         - zsh-syntax-highlighting
+        - steam
+        - steam-devices
         - starship
         - steam-devices
         - libgda
