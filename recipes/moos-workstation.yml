@@ -16,9 +16,11 @@ modules:
         enable:
           - atim/starship
           - lizardbyte/beta
+          - deltacopy/waterfox
     install:
       packages:
         - https://github.com/joshuar/go-hass-agent/releases/download/v14.5.0/go-hass-agent-14.5.0-1.x86_64.rpm
+        - waterfox
         - brave-browser
         - Sunshine
         - fastfetch
