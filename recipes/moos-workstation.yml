@@ -33,7 +33,6 @@ modules:
         - libgda
         - libgda-sqlite
         - make
-        - rocm
     remove:
       packages:
         - firefox
