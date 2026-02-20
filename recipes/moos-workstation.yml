@@ -19,7 +19,6 @@ modules:
           - deltacopy/waterfox
     install:
       packages:
-        - waterfox
         - brave-browser
         - Sunshine
         - fastfetch
@@ -32,7 +31,6 @@ modules:
         - steam-devices
         - libgda
         - libgda-sqlite
-        - make
     remove:
       packages:
         - firefox
