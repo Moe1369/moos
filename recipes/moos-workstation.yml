@@ -9,9 +9,9 @@ modules:
         destination: /etc/
   - type: dnf
     repos:
-      nonfree: rpmfusion
       files: 
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+        - https://negativo17.org/repos/fedora-steam.repo
       copr:
         enable:
           - atim/starship
