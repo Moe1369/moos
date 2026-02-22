@@ -50,6 +50,55 @@ modules:
         repo:
           title: Flathub (system)
         install:
+          - org.gnome.Calculator
+          - org.gnome.Decibels
+          - org.gnome.Logs
+          - org.gnome.Loupe
+          - org.gnome.Maps
+          - org.gnome.NautilusPreviewer
+          - org.gnome.Papers
+          - org.gnome.Snapshot
+          - org.gnome.TextEditor
+          - org.gnome.Weather
+          - org.gnome.World.PikaBackup
+          - org.gnome.seahorse.Application
+          - org.gtk.Gtk3theme.adw-gtk3
+          - org.gtk.Gtk3theme.adw-gtk3-dark
+          - org.nickvision.tubeconverter
+          - page.kramo.Cartridges
+          - page.tesk.Refine
+          - re.sonny.Commit
+          - app.drey.Dialect
+          - com.anydesk.Anydesk
+          - com.cassidyjames.butler
+          - com.github.Matoking.protontricks
+          - com.github.finefindus.eyedropper
+          - com.github.hugolabe.Wike
+          - com.github.johnfactotum.Foliate
+          - com.github.maoschanz.drawing
+          - com.github.marhkb.Pods
+          - com.github.tchx84.Flatseal
+          - com.mattjakeman.ExtensionManager
+          - com.rafaelmardojai.Blanket
+          - com.usebottles.bottles
+          - com.vysp3r.ProtonPlus
+          - de.haeckerfelix.Shortwave
+          - de.k_bo.Televido
+          - de.swsnr.turnon
+          - dev.bragefuglseth.Keypunch
+          - io.github.bytezz.IPLookup
+          - io.github.diegopvlk.Cine
+          - io.github.flattool.Ignition
+          - io.github.flattool.Warehouse
+          - io.github.noobping.listenmoe
+          - io.github.ilya_zlobintsev.LACT
           - dev.vencord.Vesktop
           - com.github.IsmaelMartinez.teams_for_linux
+          - io.github.realmazharhussain.GdmSettings
+          - io.github.seadve.Mousai
+          - io.github.swordpuffin.rewaita
+          - io.github.tobagin.karere
+          - it.mijorus.gearlever
+          - moe.tsuna.tsukimi
+          - net.nokyan.Resources
   - type: signing
