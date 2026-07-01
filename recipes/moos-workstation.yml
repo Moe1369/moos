@@ -1,7 +1,7 @@
 name: moos-workstation
 description: Opiniated Silverblue
 base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 43
+image-version: 44
 modules:
   - type: files
     files:
@@ -19,6 +19,7 @@ modules:
           - deltacopy/waterfox
     install:
       packages:
+        - https://download.parallels.com/ras/v21/21.2.0.27178/RASClient-21.2.27178_x86_64.rpm
         - brave-browser
         - Sunshine
         - fastfetch
