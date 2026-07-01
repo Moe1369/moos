@@ -1,6 +1,6 @@
 name: moos-konsole
 description: Opiniated Bazzite Deck Image
-base-image: ghcr.io/ublue-os/bazzite-deck
+base-image: ghcr.io/ublue-os/bazzite-deck-gnome
 image-version: stable
 modules:
   - type: dnf
