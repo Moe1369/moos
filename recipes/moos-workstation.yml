@@ -36,6 +36,10 @@ modules:
     group-install:
       packages:
         - virtualization
+  - type: systemd
+    user:
+      enabled:
+        - app-dev.lizardbyte.app.Sunshine.service
   - type: default-flatpaks
     configurations:
       - notify: false
