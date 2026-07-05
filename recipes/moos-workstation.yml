@@ -36,6 +36,10 @@ modules:
     group-install:
       packages:
         - virtualization
+  - type: akmods
+    base: main
+    install:
+      - xone
   - type: systemd
     user:
       enabled:
