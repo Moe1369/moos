@@ -33,6 +33,7 @@ modules:
         - firefox-langpacks
         - nvtop
         - htop
+        - gnome-software
     group-install:
       packages:
         - virtualization
