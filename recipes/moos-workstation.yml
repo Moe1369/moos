@@ -37,6 +37,9 @@ modules:
     group-install:
       packages:
         - virtualization
+  - type: bling
+    install:
+      - 1password
   - type: akmods
     base: main
     install:
