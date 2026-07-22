@@ -5,8 +5,6 @@ image-version: stable-zfs
 modules:
   - type: dnf
     repos:
-      files: 
-        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
         enable:
           - atim/starship
@@ -14,7 +12,6 @@ modules:
       packages:
         - wget
         - fastfetch
-        - brave-browser
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
