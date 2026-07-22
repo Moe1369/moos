@@ -11,13 +11,14 @@ modules:
     repos:
       files: 
         - https://negativo17.org/repos/fedora-steam.repo
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
         enable:
           - atim/starship
           - lizardbyte/beta
     install:
       packages:
-        - https://download.parallels.com/ras/v21/21.2.0.27178/RASClient-21.2.27178_x86_64.rpm
+        - brave-browser
         - Sunshine
         - fastfetch
         - zsh
