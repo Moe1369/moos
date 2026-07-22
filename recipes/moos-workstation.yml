@@ -18,6 +18,7 @@ modules:
           - lizardbyte/beta
     install:
       packages:
+        - epiphany
         - brave-browser
         - Sunshine
         - fastfetch
