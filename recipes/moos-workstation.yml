@@ -18,7 +18,7 @@ modules:
           - lizardbyte/beta
     install:
       packages:
-        - epiphany
+        - https://github.com/TickLabVN/biopass/releases/download/1.4.1/biopass-1.4.1-1.x86_64.rpm
         - brave-browser
         - Sunshine
         - fastfetch
