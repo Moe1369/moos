@@ -1,6 +1,6 @@
 name: moos-workstation
-description: Opiniated Silverblue
-base-image: ghcr.io/ublue-os/silverblue-main
+description: Opiniated Kinoite
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 44
 modules:
   - type: files
@@ -34,17 +34,9 @@ modules:
         - firefox-langpacks
         - nvtop
         - htop
-        - gnome-software
-    group-install:
-      packages:
-        - virtualization
   - type: bling
     install:
       - 1password
-  - type: akmods
-    base: main
-    install:
-      - xone
   - type: systemd
     user:
       enabled:
@@ -56,14 +48,3 @@ modules:
         repo:
           title: Flathub (system)
   - type: signing
-  - type: gnome-extensions
-    install:
-      - 4998
-      - 10070
-      - 615
-      - 517
-      - 307
-      - 9334
-      - 2236
-      - 7048
-      - 352
