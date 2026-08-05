@@ -12,6 +12,7 @@ modules:
       files: 
         - https://negativo17.org/repos/fedora-steam.repo
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+        - https://download.opensuse.org/repositories/home:paulmcauley/Fedora_44/home:paulmcauley.repo
       copr:
         enable:
           - atim/starship
