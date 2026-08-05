@@ -20,6 +20,7 @@ modules:
     install:
       packages:
         - adwaita-sans-fonts
+        - plasma-union
         - klassy
         - brave-browser
         - Sunshine
