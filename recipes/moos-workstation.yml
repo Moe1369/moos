@@ -19,6 +19,8 @@ modules:
           - lizardbyte/beta
     install:
       packages:
+        - adwaita-sans-fonts
+        - klassy
         - brave-browser
         - Sunshine
         - fastfetch
