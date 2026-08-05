@@ -13,6 +13,7 @@ modules:
         - https://negativo17.org/repos/fedora-steam.repo
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
         - https://download.opensuse.org/repositories/home:paulmcauley/Fedora_44/home:paulmcauley.repo
+        - https://download.opensuse.org/repositories/home:/luisbocanegra/Fedora_44/home:luisbocanegra.repo
       copr:
         enable:
           - atim/starship
@@ -20,6 +21,7 @@ modules:
     install:
       packages:
         - adwaita-sans-fonts
+        - kde-material-you-colors
         - plasma-union
         - klassy
         - brave-browser
