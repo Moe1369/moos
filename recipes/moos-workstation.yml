@@ -20,6 +20,8 @@ modules:
           - lizardbyte/beta
     install:
       packages:
+        - overpass-fonts
+        - overpass-mono-fonts
         - adwaita-sans-fonts
         - kde-material-you-colors
         - plasma-union
