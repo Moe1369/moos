@@ -12,6 +12,7 @@ modules:
       files: 
         - https://negativo17.org/repos/fedora-steam.repo
         - https://repo.librewolf.net/librewolf.repo
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
         enable:
           - atim/starship
@@ -22,7 +23,7 @@ modules:
         - overpass-fonts
         - overpass-mono-fonts
         - adwaita-sans-fonts
-        - librewolf
+        - brave-browser
         - Sunshine
         - fastfetch
         - zsh
