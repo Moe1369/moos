@@ -11,7 +11,6 @@ modules:
     repos:
       files: 
         - https://negativo17.org/repos/fedora-steam.repo
-        - https://repo.librewolf.net/librewolf.repo
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
         enable:
@@ -37,6 +36,7 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
+        - gnome-software
         - nvtop
         - htop
   - type: bling
