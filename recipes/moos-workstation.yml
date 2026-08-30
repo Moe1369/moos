@@ -19,17 +19,14 @@ modules:
     install:
       packages:
         - adw-gtk3-theme
-        - overpass-fonts
-        - overpass-mono-fonts
-        - adwaita-sans-fonts
+        - gnome-software
+        - gnome-software-rpm-ostree
         - brave-browser
         - Sunshine
         - fastfetch
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
-        - steam
-        - steam-devices
         - starship
         - steam-devices
     remove:
