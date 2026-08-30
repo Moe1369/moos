@@ -33,7 +33,6 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
-        - gnome-software
         - nvtop
         - htop
   - type: bling
