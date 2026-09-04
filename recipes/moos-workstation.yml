@@ -28,6 +28,7 @@ modules:
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
+        - steam
         - steam-devices
     remove:
       packages:
