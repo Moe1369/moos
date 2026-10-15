@@ -19,8 +19,6 @@ modules:
     install:
       packages:
         - adw-gtk3-theme
-        - ollama
-        - rocm
         - ddcutil
         - gnome-software
         - gnome-software-rpm-ostree
