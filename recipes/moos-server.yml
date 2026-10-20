@@ -1,6 +1,6 @@
 name: moos-server
 description: Opiniated Server Image
-base-image: ghcr.io/ublue-os/fedora-coreos
+base-image: ghcr.io/ublue-os/ucore
 image-version: stable
 modules:
   - type: dnf
