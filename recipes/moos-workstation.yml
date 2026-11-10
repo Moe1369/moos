@@ -21,7 +21,6 @@ modules:
         - adw-gtk3-theme
         - rocm
         - llama-cpp
-        - ddcutil
         - gnome-software
         - gnome-software-rpm-ostree
         - brave-browser
