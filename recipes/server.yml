@@ -1,0 +1,28 @@
+name: server
+description: Opiniated Server Image
+base-image: ghcr.io/ublue-os/ucore
+image-version: stable
+modules:
+  - type: dnf
+    repos:
+      copr:
+        enable:
+          - atim/starship
+    install:
+      packages:
+        - wget
+        - fastfetch
+        - zsh
+        - zsh-autosuggestions
+        - zsh-syntax-highlighting
+        - starship
+        - htop
+        - borgbackup
+        - borgmatic
+    remove:
+      packages:
+        - zincati
+  - type: signing
+  - type: kargs
+    kargs:
+       - i915.enable_guc=3
