@@ -1,6 +1,6 @@
 ---
 name: workstation
-description: Opiniated Silverblue
+description: Opiniated Kinoite
 base-image: ghcr.io/blue-build/base-images/fedora-kinoite
 image-version: 45
 modules:
