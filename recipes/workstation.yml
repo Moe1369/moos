@@ -1,0 +1,42 @@
+---
+name: workstation
+description: Opiniated Silverblue
+base-image: ghcr.io/blue-build/base-images/fedora-kinoite
+image-version: 45
+modules:
+  - type: files
+    files:
+      - source: system/etc/
+        destination: /etc/
+  - type: dnf
+    repos:
+      files: 
+        - https://negativo17.org/repos/fedora-steam.repo
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+      copr:
+        enable:
+          - atim/starship
+          - lizardbyte/beta
+    install:
+      packages:
+        - adw-gtk3-theme
+        - brave-browser
+        - Sunshine
+        - fastfetch
+        - zsh
+        - zsh-autosuggestions
+        - zsh-syntax-highlighting
+        - starship
+        - steam
+        - steam-devices
+  - type: systemd
+    user:
+      enabled:
+        - app-dev.lizardbyte.app.Sunshine.service
+  - type: default-flatpaks
+    configurations:
+      - notify: false
+        scope: system
+        repo:
+          title: Flathub (system)
+  - type: signing
