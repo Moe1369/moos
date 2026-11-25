@@ -11,7 +11,7 @@ modules:
   - type: dnf
     repos:
       files: 
-        #- https://negativo17.org/repos/fedora-steam.repo
+        - https://download.opensuse.org/repositories/home:paulmcauley/Fedora_45/home:paulmcauley.repo
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
         enable:
@@ -19,6 +19,7 @@ modules:
           - lizardbyte/beta
     install:
       packages:
+        - klassy
         - adw-gtk3-theme
         - brave-browser
         - Sunshine
