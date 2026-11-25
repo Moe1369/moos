@@ -20,7 +20,6 @@ modules:
           - lizardbyte/beta
     install:
       packages:
-        - adw-gtk3-theme
         - brave-browser
         - Sunshine
         - fastfetch
@@ -30,6 +29,11 @@ modules:
         - starship
         - steam
         - steam-devices
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks
+        - toolbox
   - type: bling
     install:
        - 1password
