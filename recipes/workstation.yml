@@ -20,6 +20,7 @@ modules:
           - lizardbyte/beta
     install:
       packages:
+        - https://github.com/Vencord/Vesktop/releases/download/v1.7.0/vesktop-1.7.0.x86_64.rpm
         - klassy
         - kde-material-you-colors
         - adw-gtk3-theme
