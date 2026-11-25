@@ -27,12 +27,12 @@ modules:
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
-        - steam
-        - steam-devices
+        #- steam
+        #- steam-devices
   - type: bling
     install:
        - 1password
-       - rpmfusion
+       #- rpmfusion
   - type: systemd
     user:
       enabled:
