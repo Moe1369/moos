@@ -12,6 +12,7 @@ modules:
     repos:
       files: 
         - https://download.opensuse.org/repositories/home:paulmcauley/Fedora_45/home:paulmcauley.repo
+        - https://download.opensuse.org/repositories/home:luisbocanegra/Fedora_45/home:luisbocanegra.repo
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
         enable:
@@ -20,6 +21,7 @@ modules:
     install:
       packages:
         - klassy
+        - kde-material-you-colors
         - adw-gtk3-theme
         - brave-browser
         - Sunshine
