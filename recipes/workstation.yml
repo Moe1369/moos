@@ -11,7 +11,7 @@ modules:
   - type: dnf
     repos:
       files: 
-        - https://negativo17.org/repos/fedora-steam.repo
+        #- https://negativo17.org/repos/fedora-steam.repo
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       copr:
         enable:
@@ -27,8 +27,8 @@ modules:
         - zsh-autosuggestions
         - zsh-syntax-highlighting
         - starship
-        - steam
-        - steam-devices
+        #- steam
+        #- steam-devices
   - type: systemd
     user:
       enabled:
