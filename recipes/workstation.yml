@@ -30,7 +30,7 @@ modules:
         - Sunshine
         - fastfetch
         - kontact
-        - KColorChooser
+        - kcolorchooser
         - kolourpaint
         - kcalc
         - haruna
