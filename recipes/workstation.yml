@@ -29,6 +29,18 @@ modules:
         - brave-browser
         - Sunshine
         - fastfetch
+        - kontact
+        - KColorChooser
+        - kolourpaint
+        - kcalc
+        - haruna
+        - krecorder
+        - ksystemlog
+        - okular
+        - kamoso
+        - haruna
+        - isoimagewriter
+        - gwenview
         - zsh
         - zsh-autosuggestions
         - zsh-syntax-highlighting
